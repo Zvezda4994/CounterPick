@@ -1,0 +1,12 @@
+# PGL Major Singapore 2026: teams invited directly to Stage 2, spelled as in Valve's global VRS
+# of 2026-11-02 (standings 8, 10, 11, 12, 13, 14, 17, 19; Liquipedia lists the same 8):
+# https://raw.githubusercontent.com/ValveSoftware/counter-strike_regional_standings/main/invitation/2026/standings_global_2026_11_02.md
+# Write "Sheet name=VRS name" to use a different name in the odds sheet.
+FUT
+Nemiga
+G2
+1win
+Natus Vincere
+Astralis
+The MongolZ
+MIBR

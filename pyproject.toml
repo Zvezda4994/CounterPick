@@ -16,6 +16,7 @@ dependencies = [
 [project.scripts]
 pickem-optimize = "pickem.optimizer.cli:main"
 pickem-odds = "pickem.probs.cli:main"
+pickem-next-stage = "pickem.probs.next_stage:main"
 
 [project.optional-dependencies]
 notebooks = [

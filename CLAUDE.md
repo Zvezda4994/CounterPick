@@ -30,6 +30,7 @@ Goal: maximize P(>=5 correct picks) per Swiss stage of the PGL Singapore Major 2
 - Strengths s are logit per BO1 map; BO3 = p^2(3-2p). Joint MAP fit: round-1 odds + qualify odds (checked against the real Swiss sim) + win-Major shares, VRS prior (0.4 +/- 0.25 logit per 100 points, centered below Valve's Glicko scale).
 - Uncertainty: Laplace covariance; pickem-optimize redraws strengths every sims_per_draw sims, scaled by --spread (0 = fixed matrices). --compare-spread shows the effect.
 - Singapore 2026 Stage 1 seeds = Valve global VRS of 2026-11-02 (verified against Liquipedia's round-1 pairs).
+- Next stage: pickem-next-stage replays the previous stage's results (CSV or --liquipedia) through the Swiss engine (swiss/replay.py); advancing teams = seeds 9-16 by final mid-stage seed, invited = seeds 1-8 by VRS standing. Verified on Austin 2025 Stage 1->2->3.
 
 ## Stack
 Python 3.11+, numpy, pandas, pytest. Vectorized simulation. Typed and tested.

@@ -1,0 +1,42 @@
+# PGL Major Singapore 2026 - Stage 1 results for pickem-next-stage: one row per match.
+# Round 1 is filled in from the seeding; type each winner exactly as the team is spelled here.
+# Add rounds 2-5 as they are played (8, 8, 6 and 3 matches); rows left fully blank are ignored.
+# Copy this file to data/ before filling it. Or skip it and read Liquipedia instead:
+#   uv run pickem-next-stage --previous data/singapore_2026_stage1_odds.csv \
+#     --liquipedia PGL/2026/Singapore/Stage_1 \
+#     --vrs https://raw.githubusercontent.com/ValveSoftware/counter-strike_regional_standings/main/invitation/2026/standings_global_2026_11_02.md \
+#     --invited-file examples/singapore_2026_stage2_invited.txt --out data/singapore_2026_stage2_odds.csv
+round,team1,team2,winner
+1,Ninjas in Pyjamas,M80,
+1,PARIVISION,DENDELE,
+1,HEROIC,Imperial,
+1,FaZe,Wildcard,
+1,Liquid,GOSH,
+1,Eternal Fire,FlyQuest,
+1,100 Thieves,Chinggis Warriors,
+1,9z,Lynn Vision,
+2,,,
+2,,,
+2,,,
+2,,,
+2,,,
+2,,,
+2,,,
+2,,,
+3,,,
+3,,,
+3,,,
+3,,,
+3,,,
+3,,,
+3,,,
+3,,,
+4,,,
+4,,,
+4,,,
+4,,,
+4,,,
+4,,,
+5,,,
+5,,,
+5,,,

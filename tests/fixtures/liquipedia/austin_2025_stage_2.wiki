@@ -1,0 +1,489 @@
+{{DISPLAYTITLE:BLAST.tv Austin Major 2025: Stage 2}}
+{{Summer Major 2025 Tabs|1}}<!--
+|tickername=BLAST.tv Austin Major 2025: Stage 2
+-->{{HiddenDataBox
+|name=BLAST.tv Austin Major 2025: Stage 2
+|tickername=BLAST Austin Major 2025
+|liquipediatier=S-Tier
+|sdate=2025-06-07
+|edate=2025-06-10
+}}
+
+==Format==
+* '''16 Team Swiss System:''' ''June 7<sup>th</sup> – 10<sup>th</sup>, 2025''
+** Rounds 2 to 5 are seeded using the {{Abbr|Buchholz system|Ranking based on opponents' performance}} & teams' initial seeds
+** Elimination and Advancement matches are {{Abbr/Bo3}}
+** All other matches are {{Abbr/Bo1}}
+* Top 8 Teams proceed to '''[[BLAST/Major/2025/Austin/Stage 3|Stage 3]]'''
+* Bottom 8 Teams are eliminated
+* {{Swiss Explained|width=790px|margin=45px|seeding=
+** The initial match-ups are seeded using the below seeding:
+*** Invited teams are seeded 1st–8th using their ranking on the Valve Global Standings.
+*** Teams from Stage 1 are seeded 9th–16th using their Swiss & Buchholz scores from Stage 1.
+}}
+
+==Results==
+===Overview===
+{{LPDB storage|false}}<section begin="Results"/>
+{{SwissTableLeague|sort=<abbr title="Sorted by Swiss score & Buchholz score">#</abbr>|rounds=5|tiebreaker1=series|tiebreaker2=buchholz|show_buchholz=true|exclusive=false
+|pbg1=up|pbg2=up|pbg3=stayup|pbg4=stayup|pbg5=stayup|pbg6=stay|pbg7=stay|pbg8=stay|pbg9=down|pbg10=down|pbg11=down|pbg12=down|pbg13=down|pbg14=down|pbg15=down|pbg16=down
+|tournament=BLAST/Major/2025/Austin/Stage 2
+|bg1=down|team1=falcons|temp_tie1=16
+|bg2=stay|team2=faze|temp_tie2=15
+|bg3=stayup|team3=3dmax|temp_tie3=14
+|bg4=up|team4=vp|temp_tie4=13
+|bg5=stayup|team5=pain|temp_tie5=12
+|bg6=stayup|team6=furia|temp_tie6=11
+|bg7=down|team7=mibr|temp_tie7=10
+|bg8=down|team8=m80|temp_tie8=9
+|bg9=down|team9=b8|temp_tie9=8
+|bg10=down|team10=heroic|temp_tie10=7
+|bg11=down|team11=betboom|temp_tie11=6
+|bg12=down|team12=og|temp_tie12=5
+|bg13=stay|team13=nemiga|temp_tie13=4
+|bg14=stay|team14=lvg|temp_tie14=3
+|bg15=up|team15=legacy|temp_tie15=2
+|bg16=down|team16=tyloo|temp_tie16=1
+}}<section end="Results"/>{{LPDB storage|true}}
+
+===Detailed Results===
+{{Toggle group start|state=hide}}
+====Round 1====
+{{Matchlist|id=E0o9672joB|width=350px|collapsed=false|title=Round 1 Matches|matchsection=Round 1
+|M1header=June 7, 2025
+|{{Match
+	|opponent1={{TeamOpponent|falcons}}|opponent2={{TeamOpponent|b8}}
+	|date=June 7, 2025 - 10:00 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST |youtube=BLAST Premier
+	|map1={{Map|map=Ancient|finished=true
+		|t1firstside=ct|t1t=5|t1ct=3|t2t=9|t2ct=4
+		|stats=201091|vod=https://youtu.be/m6haxTrKfrU?t=2387}}
+	|hltv=2382424
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|faze}}|opponent2={{TeamOpponent|heroic}}
+	|date=June 7, 2025 - 10:00 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST Premier |youtube=BLAST Premier
+	|map1={{Map|map=Dust II|finished=true
+		|t1firstside=ct|t1t=3|t1ct=10|t2t=2|t2ct=1
+		|stats=201089|vod=https://youtu.be/UtS1PkGSam0?t=2397}}
+	|hltv=2382428
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|3dmax}}|opponent2={{TeamOpponent|betboom}}
+	|date=June 7, 2025 - 11:00 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST |youtube=BLAST Premier
+	|map1={{Map|map=Anubis|finished=true
+		|t1firstside=t|t1t=9|t1ct=4|t2t=1|t2ct=3
+		|stats=201095|vod=https://youtu.be/m6haxTrKfrU?t=6420}}
+	|hltv=2382425
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|vp}}|opponent2={{TeamOpponent|og}}
+	|date=June 7, 2025 - 10:45 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST Premier |youtube=BLAST Premier
+	|map1={{Map|map=Inferno|finished=true
+		|t1firstside=ct|t1t=3|t1ct=10|t2t=2|t2ct=0
+		|stats=201094|vod=https://youtu.be/UtS1PkGSam0?t=5204}}
+	|hltv=2382429
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|pain}}|opponent2={{TeamOpponent|nemiga}}
+	|date=June 7, 2025 - 11:55 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST |youtube=BLAST Premier
+	|map1={{Map|map=Dust II|finished=true
+		|t1firstside=ct|t1t=6|t1ct=7|t2t=5|t2ct=2
+		|stats=201100|vod=https://youtu.be/m6haxTrKfrU?t=9465}}
+	|hltv=2382426
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|furia}}|opponent2={{TeamOpponent|lvg}}
+	|date=June 7, 2025 - 11:35 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST Premier |youtube=BLAST Premier
+	|map1={{Map|map=Nuke|finished=true
+		|t1firstside=ct|t1t=4|t1ct=9|t2t=3|t2ct=1
+		|stats=201098|vod=https://youtu.be/UtS1PkGSam0?t=8162}}
+	|hltv=2382430
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|mibr}}|opponent2={{TeamOpponent|legacy}}
+	|date=June 7, 2025 - 12:30 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST Premier |youtube=BLAST Premier
+	|map1={{Map|map=Nuke|finished=true
+		|t1firstside=ct|t1t=3|t1ct=7|t2t=5|t2ct=8
+		|stats=201102|vod=https://youtu.be/UtS1PkGSam0?t=11288}}
+	|hltv=2382427
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|m80}}|opponent2={{TeamOpponent|tyloo}}
+	|date=June 7, 2025 - 12:55 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST |youtube=BLAST Premier
+	|map1={{Map|map=Train|finished=true
+		|t1firstside=ct|t1t=1|t1ct=8|t2t=4|t2ct=9
+		|stats=201104|vod=https://youtu.be/m6haxTrKfrU?t=12899}}
+	|hltv=2382431
+	}}
+}}
+
+====Round 2====
+{{Toggle group start|state=hide}}
+{{box|start|padding=2em}}
+=====High=====
+{{Matchlist|id=vgX66qcFZf|width=350px|collapsed=false|title=Round 2 High Matches|matchsection=Round 2
+|M1header=June 7, 2025
+|{{Match
+	|opponent1={{TeamOpponent|vp}}|opponent2={{TeamOpponent|b8}}
+	|date=June 7, 2025 - 14:30 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST |youtube=BLAST Premier
+	|map1={{Map|map=Inferno|finished=true
+		|t1firstside=ct|t1t=4|t1ct=9|t2t=3|t2ct=0
+		|stats=201106|vod=https://youtu.be/m6haxTrKfrU?t=18782}}
+	|hltv=2382441
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|pain}}|opponent2={{TeamOpponent|furia}}
+	|date=June 7, 2025 - 14:30 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST Premier |youtube=BLAST Premier
+	|map1={{Map|map=Dust II|finished=true
+		|t1firstside=ct|t1t=8|t1ct=5|t2t=7|t2ct=4
+		|stats=201107|vod=https://youtu.be/UtS1PkGSam0?t=18694}}
+	|hltv=2382440
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|faze}}|opponent2={{TeamOpponent|tyloo}}
+	|date=June 7, 2025 - 15:40 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST Premier |youtube=BLAST Premier
+	|map1={{Map|map=Anubis|finished=true
+		|t1firstside=t|t1t=7|t1ct=6|t2t=0|t2ct=5
+		|stats=201109|vod=https://youtu.be/UtS1PkGSam0?t=22690}}
+	|hltv=2382442
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|3dmax}}|opponent2={{TeamOpponent|legacy}}
+	|date=June 7, 2025 - 15:20 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST |youtube=BLAST Premier
+	|map1={{Map|map=Inferno|finished=true
+		|t1firstside=ct|t1t=2|t1ct=5|t2t=7|t2ct=6
+		|stats=201108|vod=https://youtu.be/m6haxTrKfrU?t=21601}}
+	|hltv=2382443
+	}}
+}}
+{{box|break|padding=2em}}
+
+=====Low=====
+{{Matchlist|id=cS6514CQwJ|width=350px|collapsed=false|title=Round 2 Low Matches|matchsection=Round 2
+|M1header=June 7, 2025
+|{{Match
+	|opponent1={{TeamOpponent|falcons}}|opponent2={{TeamOpponent|lvg}}
+	|date=June 7, 2025 - 16:30 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST Premier |youtube=BLAST Premier
+	|map1={{Map|map=Nuke|finished=true
+		|t1firstside=ct|t1t=2|t1ct=7|t2t=5|t2ct=8
+		|stats=201111|vod=https://youtu.be/UtS1PkGSam0?t=25734}}
+	|hltv=2382444
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|heroic}}|opponent2={{TeamOpponent|betboom}}
+	|date=June 7, 2025 - 16:20 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST |youtube=BLAST Premier
+	|map1={{Map|map=Mirage|finished=true
+		|t1firstside=ct|t1t=7|t1ct=6|t2t=6|t2ct=3
+		|stats=201110|vod=https://youtu.be/m6haxTrKfrU?t=25124}}
+	|hltv=2382445
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|mibr}}|opponent2={{TeamOpponent|nemiga}}
+	|date=June 7, 2025 - 17:35 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST Premier |youtube=BLAST Premier
+	|map1={{Map|map=Ancient|finished=true
+		|t1firstside=ct|t1t=7|t1ct=5|t2t=7|t2ct=5
+		|o1t1firstside=t|o1t1t=0|o1t1ct=0|o1t2t=1|o1t2ct=3
+		|stats=201114|vod=https://youtu.be/UtS1PkGSam0?t=29545}}
+	|hltv=2382446
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|m80}}|opponent2={{TeamOpponent|og}}
+	|date=June 7, 2025 - 17:20 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST |youtube=BLAST Premier
+	|map1={{Map|map=Ancient|finished=true
+		|t1firstside=ct|t1t=6|t1ct=6|t2t=6|t2ct=6
+		|o1t1firstside=t|o1t1t=2|o1t1ct=2|o1t2t=0|o1t2ct=1
+		|stats=201112|vod=https://youtu.be/m6haxTrKfrU?t=28894}}
+	|hltv=2382447
+	}}
+}}
+{{box|end}}
+{{Toggle group end}}
+
+====Round 3====
+{{Toggle group start|state=hide}}
+{{box|start|padding=2em}}
+=====High=====
+{{Matchlist|id=PP3eQ9D3Is|width=350px|collapsed=false|title=Round 3 High Matches|matchsection=Round 3
+|M1header=June 8, 2025
+|{{Match
+	|opponent1={{TeamOpponent|faze}}|opponent2={{TeamOpponent|legacy}}
+	|date=June 8, 2025 - 11:50 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST Premier |youtube=BLAST Premier
+	|map1={{Map|map=Mirage|finished=true
+		|t1firstside=ct|t1t=3|t1ct=4|t2t=8|t2ct=5
+		|stats=201145|vod=https://youtu.be/2puCmFGEzp4?t=9443}}
+	|map2={{Map|map=Dust II|finished=true
+		|t1firstside=t|t1t=5|t1ct=6|t2t=6|t2ct=7
+		|stats=201153|vod=https://youtu.be/2puCmFGEzp4?t=12930}}
+	|map3={{Map|map=Nuke|finished=skip}}
+	|hltv=2382575
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|pain}}|opponent2={{TeamOpponent|vp}}
+	|date=June 8, 2025 - 12:00 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST |youtube=BLAST Premier
+	|map1={{Map|map=Dust II|finished=true
+		|t1firstside=ct|t1t=4|t1ct=6|t2t=6|t2ct=7
+		|stats=201149|vod=https://youtu.be/znjt-yny-VI?t=10769}}
+	|map2={{Map|map=Mirage|finished=true
+		|t1firstside=t|t1t=7|t1ct=5|t2t=7|t2ct=5
+		|o1t1firstside=ct|o1t1t=1|o1t1ct=0|o1t2t=3|o1t2ct=1
+		|stats=201155|vod=https://youtu.be/znjt-yny-VI?t=15190}}
+	|map3={{Map|map=Ancient|finished=skip}}
+	|hltv=2382576
+	}}
+}}
+{{box|break|padding=2em}}
+
+=====Mid=====
+{{Matchlist|id=fa8IgFtJy1|width=350px|collapsed=false|title=Round 3 Mid Matches|matchsection=Round 3
+|M1header=June 8, 2025
+|{{Match
+	|opponent1={{TeamOpponent|tyloo}}|opponent2={{TeamOpponent|lvg}}
+	|date=June 8, 2025 - 10:00 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST Premier |youtube=BLAST Premier
+	|map1={{Map|map=Anubis|finished=true
+		|t1firstside=t|t1t=3|t1ct=2|t2t=4|t2ct=9
+		|stats=201137|vod=https://youtu.be/2puCmFGEzp4?t=2723}}
+	|hltv=2382571
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|3dmax}}|opponent2={{TeamOpponent|nemiga}}
+	|date=June 8, 2025 - 10:00 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST |youtube=BLAST Premier
+	|map1={{Map|map=Dust II|finished=true
+		|t1firstside=t|t1t=6|t1ct=7|t2t=5|t2ct=6
+		|stats=201139|vod=https://youtu.be/znjt-yny-VI?t=2591}}
+	|hltv=2382572
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|furia}}|opponent2={{TeamOpponent|m80}}
+	|date=June 8, 2025 - 10:50 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST Premier |youtube=BLAST Premier
+	|map1={{Map|map=Dust II|finished=true
+		|t1firstside=t|t1t=7|t1ct=6|t2t=3|t2ct=5
+		|stats=201141|vod=https://youtu.be/2puCmFGEzp4?t=5920}}
+	|hltv=2382573
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|b8}}|opponent2={{TeamOpponent|heroic}}
+	|date=June 8, 2025 - 11:00 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST |youtube=BLAST Premier
+	|map1={{Map|map=Dust II|finished=true
+		|t1firstside=ct|t1t=8|t1ct=5|t2t=7|t2ct=3
+		|stats=201143|vod=https://youtu.be/znjt-yny-VI?t=6364}}
+	|hltv=2382574
+	}}
+}}
+{{box|break|padding=2em}}
+
+=====Low=====
+{{Matchlist|id=gosErmZJv3|width=350px|collapsed=false|title=Round 3 Low Matches|matchsection=Round 3
+|M1header=June 8, 2025
+|{{Match
+	|opponent1={{TeamOpponent|mibr}}|opponent2={{TeamOpponent|betboom}}
+	|date=June 8, 2025 - 14:50 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST |youtube=BLAST Premier
+	|map1={{Map|map=Train|finished=true
+		|t1firstside=ct|t1t=6|t1ct=7|t2t=5|t2ct=6
+		|stats=201158|vod=https://youtu.be/znjt-yny-VI?t=20036}}
+	|map2={{Map|map=Anubis|finished=true
+		|t1firstside=ct|t1t=6|t1ct=7|t2t=5|t2ct=6
+		|stats=201160|vod=https://youtu.be/znjt-yny-VI?t=24183}}
+	|map3={{Map|map=Nuke|finished=skip}}
+	|hltv=2382578
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|og}}|opponent2={{TeamOpponent|falcons}}
+	|date=June 8, 2025 - 14:00 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST Premier |youtube=BLAST Premier
+	|map1={{Map|map=Dust II|finished=true
+		|t1firstside=ct|t1t=10|t1ct=3|t2t=9|t2ct=2
+		|stats=201157|vod=https://youtu.be/2puCmFGEzp4?t=17189}}
+	|map2={{Map|map=Nuke|finished=true
+		|t1firstside=t|t1t=4|t1ct=6|t2t=5|t2ct=8
+		|stats=201159|vod=https://youtu.be/2puCmFGEzp4?t=21717}}
+	|map3={{Map|map=Mirage|finished=true
+		|t1firstside=ct|t1t=2|t1ct=4|t2t=8|t2ct=5
+		|stats=201161|vod=https://youtu.be/2puCmFGEzp4?t=25709}}
+	|hltv=2382577
+	}}
+}}
+{{box|end}}
+{{Toggle group end}}
+
+====Round 4====
+{{Toggle group start|state=hide}}
+{{box|start|padding=2em}}
+=====High=====
+{{Matchlist|id=e5lDGQRiFF|width=350px|collapsed=false|title=Round 4 High Matches|matchsection=Round 4
+|M1header=June 9, 2025
+|{{Match
+	|opponent1={{TeamOpponent|pain}}|opponent2={{TeamOpponent|lvg}}
+	|date=June 9, 2025 - 11:50 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST |youtube=BLAST Premier
+	|map1={{Map|map=Dust II|finished=true
+		|t1firstside=ct|t1t=4|t1ct=9|t2t=3|t2ct=5
+		|stats=201185|vod=https://youtu.be/nev7z5HSDvg?t=9525}}
+	|map2={{Map|map=Nuke|finished=true
+		|t1firstside=t|t1t=10|t1ct=3|t2t=2|t2ct=2
+		|stats=201188|vod=https://youtu.be/nev7z5HSDvg?t=13486}}
+	|map3={{Map|map=Anubis|finished=skip}}
+	|hltv=2382581
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|faze}}|opponent2={{TeamOpponent|3dmax}}
+	|date=June 9, 2025 - 17:35 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST Premier |youtube=BLAST Premier
+	|map1={{Map|map=Nuke|finished=true
+		|t1firstside=t|t1t=4|t1ct=4|t2t=5|t2ct=8
+		|stats=201202|vod=https://youtu.be/PlBIrcPl-iI?t=30641}}
+	|map2={{Map|map=Inferno|finished=true
+		|t1firstside=ct|t1t=3|t1ct=6|t2t=6|t2ct=7
+		|stats=201203|vod=https://youtu.be/PlBIrcPl-iI?t=34442}}
+	|map3={{Map|map=Anubis|finished=skip}}
+	|hltv=2382583
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|furia}}|opponent2={{TeamOpponent|b8}}
+	|date=June 9, 2025 - 13:45 {{Abbr/CDT}} |finished=
+	|twitch=BLAST |youtube=BLAST Premier
+	|map1={{Map|map=Mirage|finished=true
+		|t1firstside=ct|t1t=0|t1ct=3|t2t=9|t2ct=4
+		|stats=201191|vod=https://youtu.be/nev7z5HSDvg?t=16201}}
+	|map2={{Map|map=Train|finished=true
+		|t1firstside=t|t1t=7|t1ct=6|t2t=1|t2ct=5
+		|stats=201194|vod=https://youtu.be/nev7z5HSDvg?t=19241}}
+	|map3={{Map|map=Dust II|finished=true
+		|t1firstside=t|t1t=8|t1ct=5|t2t=3|t2ct=4
+		|stats=201197|vod=https://youtu.be/nev7z5HSDvg?t=22359}}
+	|hltv=2382584
+	}}
+}}
+{{box|break|padding=2em}}
+
+=====Low=====
+{{Matchlist|id=OUa4XNdiQn|width=350px|collapsed=false|title=Round 4 Low Matches|matchsection=Round 4
+|M1header=June 9, 2025
+|{{Match
+	|opponent1={{TeamOpponent|nemiga}}|opponent2={{TeamOpponent|m80}}
+	|date=June 9, 2025 - 10:00 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST |youtube=BLAST Premier
+	|map1={{Map|map=Ancient|finished=true
+		|t1firstside=ct|t1t=7|t1ct=6|t2t=6|t2ct=5
+		|stats=201177|vod=https://youtu.be/nev7z5HSDvg?t=2846}}
+	|map2={{Map|map=Dust II|finished=true
+		|t1firstside=t|t1t=10|t1ct=3|t2t=0|t2ct=2
+		|stats=201181|vod=https://youtu.be/nev7z5HSDvg?t=6902}}
+	|map3={{Map|map=Inferno|finished=skip}}
+	|hltv=2382580
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|tyloo}}|opponent2={{TeamOpponent|heroic}}
+	|date=June 9, 2025 - 10:00 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST Premier |youtube=BLAST Premier
+	|map1={{Map|map=Ancient|finished=true
+		|t1firstside=ct|t1t=8|t1ct=4|t2t=8|t2ct=4
+		|o1t1firstside=t|o1t1t=3|o1t1ct=1|o1t2t=0|o1t2ct=0
+		|stats=201178|vod=https://youtu.be/PlBIrcPl-iI?t=2979}}
+	|map2={{Map|map=Mirage|finished=true
+		|t1firstside=t|t1t=6|t1ct=4|t2t=7|t2ct=6
+		|stats=201183|vod=https://youtu.be/PlBIrcPl-iI?t=7713}}
+	|map3={{Map|map=Train|finished=true
+		|t1firstside=ct|t1t=6|t1ct=4|t2t=8|t2ct=5
+		|stats=201187|vod=https://youtu.be/PlBIrcPl-iI?t=11608}}
+	|hltv=2382579
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|falcons}}|opponent2={{TeamOpponent|mibr}}
+	|date=June 9, 2025 - 13:35 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST Premier |youtube=BLAST Premier
+	|map1={{Map|map=Ancient|finished=true
+		|t1firstside=t|t1t=7|t1ct=6|t2t=1|t2ct=5
+		|stats=201192|vod=https://youtu.be/PlBIrcPl-iI?t=15951}}
+	|map2={{Map|map=Nuke|finished=true
+		|t1firstside=t|t1t=2|t1ct=7|t2t=3|t2ct=10
+		|stats=201195|vod=https://youtu.be/PlBIrcPl-iI?t=19532}}
+	|map3={{Map|map=Inferno|finished=true
+		|t1firstside=ct|t1t=8|t1ct=4|t2t=8|t2ct=4
+		|o1t1firstside=t|o1t1t=2|o1t1ct=1|o1t2t=2|o1t2ct=1
+		|o2t1firstside=ct|o2t1t=2|o2t1ct=1|o2t2t=2|o2t2ct=1
+		|o3t1firstside=t|o3t1t=1|o3t1ct=1|o3t2t=2|o3t2ct=2
+		|stats=201198|vod=https://youtu.be/PlBIrcPl-iI?t=23469}}
+	|hltv=2382582
+	}}
+}}
+{{box|end}}
+{{Toggle group end}}
+
+====Round 5====
+{{Matchlist|id=2S26KgNDGa|width=350px|collapsed=false|title=Round 5 Matches|matchsection=Round 5
+|M1header=June 10, 2025
+|{{Match
+	|opponent1={{TeamOpponent|nemiga}}|opponent2={{TeamOpponent|heroic}}
+	|date=June 10, 2025 - 10:00 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST Premier |youtube=BLAST Premier
+	|map1={{Map|map=Mirage|finished=true
+		|t1firstside=ct|t1t=9|t1ct=4|t2t=8|t2ct=3
+		|stats=201231|vod=https://youtu.be/XWcVh-KfI1I?t=3014}}
+	|map2={{Map|map=Dust II|finished=true
+		|t1firstside=t|t1t=9|t1ct=4|t2t=6|t2ct=3
+		|stats=201235|vod=https://youtu.be/XWcVh-KfI1I?t=7248}}
+	|map3={{Map|map=Train|finished=skip}}
+	|hltv=2382585
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|b8}}|opponent2={{TeamOpponent|lvg}}
+	|date=June 10, 2025 - 12:30 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST Premier |youtube=BLAST Premier
+	|map1={{Map|map=Dust II|finished=true
+		|t1firstside=ct|t1t=0|t1ct=2|t2t=10|t2ct=3
+		|stats=201238|vod=https://youtu.be/XWcVh-KfI1I?t=12038}}
+	|map2={{Map|map=Ancient|finished=true
+		|t1firstside=t|t1t=9|t1ct=4|t2t=6|t2ct=3
+		|stats=201243|vod=https://youtu.be/XWcVh-KfI1I?t=14817}}
+	|map3={{Map|map=Anubis|finished=true
+		|t1firstside=t|t1t=4|t1ct=3|t2t=5|t2ct=8
+		|stats=201246|vod=https://youtu.be/XWcVh-KfI1I?t=18407}}
+	|hltv=2382586
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|faze}}|opponent2={{TeamOpponent|mibr}}
+	|date=June 10, 2025 - 15:30 {{Abbr/CDT}} |finished=true
+	|twitch=BLAST Premier |youtube=BLAST Premier
+	|map1={{Map|map=Anubis|finished=true
+		|t1firstside=t|t1t=8|t1ct=5|t2t=0|t2ct=4
+		|stats=201247|vod=https://youtu.be/XWcVh-KfI1I?t=22939}}
+	|map2={{Map|map=Ancient|finished=true
+		|t1firstside=t|t1t=7|t1ct=5|t2t=7|t2ct=5
+		|o1t1firstside=ct|o1t1t=1|o1t1ct=3|o1t2t=0|o1t2ct=0
+		|stats=201248|vod=https://youtu.be/XWcVh-KfI1I?t=26258}}
+	|map3={{Map|map=Nuke|finished=skip}}
+	|hltv=2382587
+	}}
+}}
+{{Toggle group end}}
+
+==Streams==
+{{#section:BLAST/Major/2025/Austin|streams}}
+
+==References==
+{{Reflist}}
+<br/>
+{{Majors Navbox}}

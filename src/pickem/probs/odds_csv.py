@@ -15,6 +15,7 @@ Columns (lines starting with ``#`` are ignored)::
 
 from __future__ import annotations
 
+from collections.abc import Sequence
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -166,6 +167,33 @@ def load_odds_csv(path: str | Path) -> OddsSheet:
         not_qualify_odds=no,
         win_major_odds=odds["win_major_odds"],
     )
+
+
+def write_odds_sheet(
+    path: str | Path,
+    teams: Sequence[str],
+    vrs_points: Sequence[float],
+    comments: Sequence[str] = (),
+    *,
+    overwrite: bool = False,
+) -> None:
+    """Write an odds sheet with blank odds: ``teams`` in seed order, round-1 opponents filled in.
+
+    Refuses to replace an existing file unless ``overwrite`` is set, so filled-in odds are safe.
+    """
+    path = Path(path)
+    if len(teams) != N_TEAMS or len(vrs_points) != N_TEAMS:
+        raise ValueError(f"need {N_TEAMS} teams and {N_TEAMS} VRS points")
+    if any("," in t or "#" in t or '"' in t for t in teams):
+        raise ValueError("team names cannot contain commas, quotes or #")
+    if path.exists() and not overwrite:
+        raise FileExistsError(f"{path} already exists (use --force to replace it)")
+    lines = [f"# {c}" if c else "#" for c in comments]
+    lines.append(",".join(COLUMNS))
+    for i, (team, points) in enumerate(zip(teams, vrs_points, strict=True)):
+        lines.append(f"{i + 1},{team},{points:g},{teams[r1_opponent(i)]},,,,")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def _numbers(column: pd.Series, name: str, path: Path, *, allow_blank: bool) -> NDArray[np.float64]:
