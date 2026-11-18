@@ -2,9 +2,11 @@ import json
 from pathlib import Path
 from typing import Any
 
+import numpy as np
 import pytest
 
-from pickem.data.stage_file import load_stage
+from pickem.data.stage_file import StageFile, load_stage, save_stage
+from pickem.probs import StrengthModel, stage_from_strengths
 
 EXAMPLE = Path(__file__).parents[2] / "examples" / "example_stage.json"
 
@@ -75,3 +77,46 @@ def test_not_json_or_not_an_object(tmp_path: Path) -> None:
         load_stage(bad)
     with pytest.raises(ValueError, match="JSON object"):
         load_stage(write(tmp_path, [1, 2, 3]))
+
+
+def test_files_without_a_strength_model_still_load() -> None:
+    assert load_stage(EXAMPLE).strength_model is None
+
+
+def test_save_and_load_round_trip_with_strength_model(tmp_path: Path) -> None:
+    teams = tuple(f"T{i:02d}" for i in range(16))
+    strengths = np.linspace(0.5, -0.5, 16)
+    covariance = np.full((16, 16), 0.002) + np.eye(16) * 0.02
+    original = StageFile(
+        name="round trip",
+        stage=stage_from_strengths(teams, tuple(range(16, 0, -1)), strengths),
+        strength_model=StrengthModel(strengths, covariance, spread=0.7, sims_per_draw=250),
+    )
+    path = tmp_path / "stage.json"
+    save_stage(path, original, extra={"fit": {"note": "kept but ignored"}})
+    loaded = load_stage(path)
+    assert loaded.name == "round trip"
+    assert loaded.stage.teams == teams and loaded.stage.seeds == tuple(range(16, 0, -1))
+    assert (loaded.stage.p_bo1 == original.stage.p_bo1).all()
+    assert (loaded.stage.p_bo3 == original.stage.p_bo3).all()
+    model = loaded.strength_model
+    assert model is not None
+    assert (model.strengths == strengths).all() and (model.covariance == covariance).all()
+    assert (model.spread, model.sims_per_draw) == (0.7, 250)
+    assert json.loads(path.read_text(encoding="utf-8"))["fit"] == {"note": "kept but ignored"}
+
+
+@pytest.mark.parametrize(
+    ("model", "message"),
+    [
+        ({"strengths": [0.0] * 16}, "needs strengths and covariance"),
+        ({"strengths": [0.0] * 15, "covariance": [[0.0] * 16] * 16}, "16 numbers"),
+        ({"strengths": [0.0] * 16, "covariance": [[0.0] * 16] * 15}, "16x16"),
+        ({"strengths": [0.0] * 16, "covariance": [[0.0] * 16] * 16, "spread": -1}, "spread"),
+    ],
+)
+def test_invalid_strength_model(tmp_path: Path, model: dict[str, Any], message: str) -> None:
+    data = example_data()
+    data["strength_model"] = model
+    with pytest.raises(ValueError, match=message):
+        load_stage(write(tmp_path, data))

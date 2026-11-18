@@ -24,6 +24,13 @@ Goal: maximize P(>=5 correct picks) per Swiss stage of the PGL Singapore Major 2
 - Search: prune 3-0/0-3 candidates by marginal, greedy on E[min(correct, 5)], then steepest-ascent replace/exchange moves with restarts. Verified against brute force over all 10,090,080 cards (tests/optimizer/brute_force.py).
 - Report holdout numbers: the best card is chosen on search sims and re-scored on independent sims (pickem-optimize --eval-sims).
 
+## Odds layer (src/pickem/probs/)
+- Input: one CSV row per team (examples/singapore_2026_stage1_odds.csv is the template; fill a copy in data/). Decimal odds only; blanks are left out of the fit.
+- Margin removal: power method by default; the qualify book sums to 8; win-Major odds are used as within-sheet shares.
+- Strengths s are logit per BO1 map; BO3 = p^2(3-2p). Joint MAP fit: round-1 odds + qualify odds (checked against the real Swiss sim) + win-Major shares, VRS prior (0.4 +/- 0.25 logit per 100 points, centered below Valve's Glicko scale).
+- Uncertainty: Laplace covariance; pickem-optimize redraws strengths every sims_per_draw sims, scaled by --spread (0 = fixed matrices). --compare-spread shows the effect.
+- Singapore 2026 Stage 1 seeds = Valve global VRS of 2026-11-02 (verified against Liquipedia's round-1 pairs).
+
 ## Stack
 Python 3.11+, numpy, pandas, pytest. Vectorized simulation. Typed and tested.
 

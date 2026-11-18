@@ -10,10 +10,12 @@ requires-python = ">=3.11"
 dependencies = [
     "numpy>=1.26",
     "pandas>=2.1",
+    "scipy>=1.11",
 ]
 
 [project.scripts]
 pickem-optimize = "pickem.optimizer.cli:main"
+pickem-odds = "pickem.probs.cli:main"
 
 [project.optional-dependencies]
 notebooks = [
@@ -27,6 +29,7 @@ dev = [
     "mypy>=1.10",
     "ruff>=0.6",
     "pandas-stubs>=2.1",
+    "scipy-stubs>=1.17.1.5",
 ]
 
 [tool.hatch.build.targets.wheel]

@@ -8,8 +8,16 @@ from pickem.swiss.simulate import (
     MatchLog,
     StageInput,
     SwissResult,
+    concat_results,
     simulate_from_uniforms,
     simulate_swiss,
 )
 
-__all__ = ["MatchLog", "StageInput", "SwissResult", "simulate_from_uniforms", "simulate_swiss"]
+__all__ = [
+    "MatchLog",
+    "StageInput",
+    "SwissResult",
+    "concat_results",
+    "simulate_from_uniforms",
+    "simulate_swiss",
+]

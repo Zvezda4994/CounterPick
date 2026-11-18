@@ -11,7 +11,8 @@ Rulebook-exact, vectorized 16-team Swiss stage simulation (`src/pickem/swiss/`).
 ## Phase 2: Optimizer (done)
 Maximize P(>=5 correct) per stage, with holdout sims and a brute-force check (`src/pickem/optimizer/`, `pickem-optimize`).
 
-## Phase 3: Odds layer
+## Phase 3: Odds layer (done)
+`src/pickem/probs/`, `pickem-odds`; template in `examples/singapore_2026_stage1_odds.csv`.
 - Input: CSV of round 1 match odds plus outright odds (win the Major / qualify from the stage).
 - VRS points as a weak prior.
 - Joint Bradley-Terry fit, since round 1 pairs are disjoint.

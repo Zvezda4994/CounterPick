@@ -135,7 +135,7 @@ def simulate_swiss(
         n = min(batch_size, n_sims - start)
         u = rng.random((n, N_ROUNDS, MAX_MATCHES_PER_ROUND))
         chunks.append(simulate_from_uniforms(stage, u, record_matches=record_matches))
-    return chunks[0] if len(chunks) == 1 else _concat(chunks)
+    return concat_results(chunks)
 
 
 def simulate_from_uniforms(
@@ -334,7 +334,15 @@ def _best_of_table() -> Int8Array:
     return table
 
 
-def _concat(chunks: list[SwissResult]) -> SwissResult:
+def concat_results(chunks: list[SwissResult]) -> SwissResult:
+    """Stack independent runs of the same 16 teams into one result."""
+    if not chunks:
+        raise ValueError("nothing to concatenate")
+    if any(c.teams != chunks[0].teams for c in chunks):
+        raise ValueError("results must cover the same teams in the same order")
+    if len(chunks) == 1:
+        return chunks[0]
+
     def cat(name: str) -> Int8Array:
         stacked: Int8Array = np.concatenate([getattr(c, name) for c in chunks], axis=0)
         return stacked
