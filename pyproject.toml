@@ -31,15 +31,15 @@ packages = ["src/pickem"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = ["-ra", "--strict-markers", "--strict-config"]
+addopts = ["-ra", "--strict-markers", "--strict-config", "-m", "not slow"]
 markers = [
-    "slow: large Monte Carlo runs (deselect with -m 'not slow')",
+    "slow: large Monte Carlo runs, skipped by default (run with -m slow)",
 ]
 
 [tool.mypy]
 python_version = "3.11"
 strict = true
-files = ["src", "tests"]
+files = ["src", "tests", "scripts"]
 
 [tool.ruff]
 line-length = 100

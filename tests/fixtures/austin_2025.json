@@ -1,0 +1,160 @@
+{
+ "event": "BLAST.tv Austin Major 2025",
+ "source": "Liquipedia (https://liquipedia.net), CC BY-SA 3.0",
+ "retrieved": "2026-11-17",
+ "stages": [
+  {
+   "stage": 1,
+   "page": "BLAST/Major/2025/Austin/Stage_1",
+   "url": "https://liquipedia.net/counterstrike/BLAST/Major/2025/Austin/Stage_1",
+   "seeds": ["col", "heroic", "b8", "betboom", "tyloo", "lvg", "wildcard", "fq", "og", "chinggis warriors", "imp", "nemiga", "nrg", "legacy", "metizport", "fluxo"],
+   "rounds": [
+    [
+     {"teams": ["col", "og"], "winner": "og", "maps": 1},
+     {"teams": ["heroic", "chinggis warriors"], "winner": "heroic", "maps": 1},
+     {"teams": ["b8", "imp"], "winner": "b8", "maps": 1},
+     {"teams": ["betboom", "nemiga"], "winner": "betboom", "maps": 1},
+     {"teams": ["tyloo", "nrg"], "winner": "nrg", "maps": 1},
+     {"teams": ["lvg", "legacy"], "winner": "lvg", "maps": 1},
+     {"teams": ["wildcard", "metizport"], "winner": "wildcard", "maps": 1},
+     {"teams": ["fq", "fluxo"], "winner": "fq", "maps": 1}
+    ],
+    [
+     {"teams": ["heroic", "nrg"], "winner": "heroic", "maps": 1},
+     {"teams": ["b8", "og"], "winner": "b8", "maps": 1},
+     {"teams": ["betboom", "fq"], "winner": "fq", "maps": 1},
+     {"teams": ["lvg", "wildcard"], "winner": "wildcard", "maps": 1},
+     {"teams": ["col", "fluxo"], "winner": "col", "maps": 1},
+     {"teams": ["chinggis warriors", "legacy"], "winner": "legacy", "maps": 1},
+     {"teams": ["tyloo", "metizport"], "winner": "tyloo", "maps": 1},
+     {"teams": ["imp", "nemiga"], "winner": "nemiga", "maps": 1}
+    ],
+    [
+     {"teams": ["heroic", "fq"], "winner": "heroic", "maps": 3},
+     {"teams": ["b8", "wildcard"], "winner": "b8", "maps": 3},
+     {"teams": ["betboom", "legacy"], "winner": "betboom", "maps": 1},
+     {"teams": ["nrg", "col"], "winner": "nrg", "maps": 1},
+     {"teams": ["lvg", "nemiga"], "winner": "nemiga", "maps": 1},
+     {"teams": ["og", "tyloo"], "winner": "og", "maps": 1},
+     {"teams": ["chinggis warriors", "fluxo"], "winner": "chinggis warriors", "maps": 3},
+     {"teams": ["imp", "metizport"], "winner": "imp", "maps": 2}
+    ],
+    [
+     {"teams": ["og", "nrg"], "winner": "og", "maps": 2},
+     {"teams": ["betboom", "wildcard"], "winner": "betboom", "maps": 2},
+     {"teams": ["fq", "nemiga"], "winner": "nemiga", "maps": 2},
+     {"teams": ["imp", "legacy"], "winner": "legacy", "maps": 3},
+     {"teams": ["col", "tyloo"], "winner": "tyloo", "maps": 2},
+     {"teams": ["lvg", "chinggis warriors"], "winner": "lvg", "maps": 3}
+    ],
+    [
+     {"teams": ["nrg", "lvg"], "winner": "lvg", "maps": 2},
+     {"teams": ["wildcard", "legacy"], "winner": "legacy", "maps": 2},
+     {"teams": ["fq", "tyloo"], "winner": "tyloo", "maps": 3}
+    ]
+   ]
+  },
+  {
+   "stage": 2,
+   "page": "BLAST/Major/2025/Austin/Stage_2",
+   "url": "https://liquipedia.net/counterstrike/BLAST/Major/2025/Austin/Stage_2",
+   "seeds": ["falcons", "faze", "3dmax", "vp", "pain", "furia", "mibr", "m80", "b8", "heroic", "betboom", "og", "nemiga", "lvg", "legacy", "tyloo"],
+   "rounds": [
+    [
+     {"teams": ["falcons", "b8"], "winner": "b8", "maps": 1},
+     {"teams": ["faze", "heroic"], "winner": "faze", "maps": 1},
+     {"teams": ["3dmax", "betboom"], "winner": "3dmax", "maps": 1},
+     {"teams": ["vp", "og"], "winner": "vp", "maps": 1},
+     {"teams": ["pain", "nemiga"], "winner": "pain", "maps": 1},
+     {"teams": ["furia", "lvg"], "winner": "furia", "maps": 1},
+     {"teams": ["mibr", "legacy"], "winner": "legacy", "maps": 1},
+     {"teams": ["m80", "tyloo"], "winner": "tyloo", "maps": 1}
+    ],
+    [
+     {"teams": ["vp", "b8"], "winner": "vp", "maps": 1},
+     {"teams": ["pain", "furia"], "winner": "pain", "maps": 1},
+     {"teams": ["faze", "tyloo"], "winner": "faze", "maps": 1},
+     {"teams": ["3dmax", "legacy"], "winner": "legacy", "maps": 1},
+     {"teams": ["falcons", "lvg"], "winner": "lvg", "maps": 1},
+     {"teams": ["heroic", "betboom"], "winner": "heroic", "maps": 1},
+     {"teams": ["mibr", "nemiga"], "winner": "nemiga", "maps": 1},
+     {"teams": ["m80", "og"], "winner": "m80", "maps": 1}
+    ],
+    [
+     {"teams": ["faze", "legacy"], "winner": "legacy", "maps": 2},
+     {"teams": ["pain", "vp"], "winner": "vp", "maps": 2},
+     {"teams": ["tyloo", "lvg"], "winner": "lvg", "maps": 1},
+     {"teams": ["3dmax", "nemiga"], "winner": "3dmax", "maps": 1},
+     {"teams": ["furia", "m80"], "winner": "furia", "maps": 1},
+     {"teams": ["b8", "heroic"], "winner": "b8", "maps": 1},
+     {"teams": ["mibr", "betboom"], "winner": "mibr", "maps": 2},
+     {"teams": ["og", "falcons"], "winner": "falcons", "maps": 3}
+    ],
+    [
+     {"teams": ["pain", "lvg"], "winner": "pain", "maps": 2},
+     {"teams": ["faze", "3dmax"], "winner": "3dmax", "maps": 2},
+     {"teams": ["furia", "b8"], "winner": "furia", "maps": 3},
+     {"teams": ["nemiga", "m80"], "winner": "nemiga", "maps": 2},
+     {"teams": ["tyloo", "heroic"], "winner": "heroic", "maps": 3},
+     {"teams": ["falcons", "mibr"], "winner": "mibr", "maps": 3}
+    ],
+    [
+     {"teams": ["nemiga", "heroic"], "winner": "nemiga", "maps": 2},
+     {"teams": ["b8", "lvg"], "winner": "lvg", "maps": 3},
+     {"teams": ["faze", "mibr"], "winner": "faze", "maps": 2}
+    ]
+   ]
+  },
+  {
+   "stage": 3,
+   "page": "BLAST/Major/2025/Austin/Stage_3",
+   "url": "https://liquipedia.net/counterstrike/BLAST/Major/2025/Austin/Stage_3",
+   "seeds": ["vit", "mouz", "spirit", "g2", "mongolz", "aurora", "navi", "tl", "legacy", "vp", "pain", "3dmax", "furia", "faze", "nemiga", "lvg"],
+   "rounds": [
+    [
+     {"teams": ["vit", "legacy"], "winner": "legacy", "maps": 1},
+     {"teams": ["mouz", "vp"], "winner": "vp", "maps": 1},
+     {"teams": ["spirit", "pain"], "winner": "spirit", "maps": 1},
+     {"teams": ["g2", "3dmax"], "winner": "3dmax", "maps": 1},
+     {"teams": ["mongolz", "furia"], "winner": "furia", "maps": 1},
+     {"teams": ["aurora", "faze"], "winner": "aurora", "maps": 1},
+     {"teams": ["navi", "nemiga"], "winner": "navi", "maps": 1},
+     {"teams": ["tl", "lvg"], "winner": "lvg", "maps": 1}
+    ],
+    [
+     {"teams": ["aurora", "furia"], "winner": "furia", "maps": 1},
+     {"teams": ["legacy", "vp"], "winner": "vp", "maps": 1},
+     {"teams": ["spirit", "lvg"], "winner": "spirit", "maps": 1},
+     {"teams": ["navi", "3dmax"], "winner": "navi", "maps": 1},
+     {"teams": ["vit", "nemiga"], "winner": "vit", "maps": 1},
+     {"teams": ["mouz", "faze"], "winner": "faze", "maps": 1},
+     {"teams": ["g2", "pain"], "winner": "g2", "maps": 1},
+     {"teams": ["mongolz", "tl"], "winner": "mongolz", "maps": 1}
+    ],
+    [
+     {"teams": ["furia", "vp"], "winner": "furia", "maps": 2},
+     {"teams": ["spirit", "navi"], "winner": "spirit", "maps": 2},
+     {"teams": ["legacy", "faze"], "winner": "faze", "maps": 1},
+     {"teams": ["3dmax", "vit"], "winner": "vit", "maps": 1},
+     {"teams": ["aurora", "g2"], "winner": "g2", "maps": 1},
+     {"teams": ["mongolz", "lvg"], "winner": "mongolz", "maps": 1},
+     {"teams": ["mouz", "tl"], "winner": "mouz", "maps": 3},
+     {"teams": ["pain", "nemiga"], "winner": "pain", "maps": 3}
+    ],
+    [
+     {"teams": ["mongolz", "faze"], "winner": "faze", "maps": 2},
+     {"teams": ["vp", "vit"], "winner": "vit", "maps": 2},
+     {"teams": ["navi", "g2"], "winner": "navi", "maps": 3},
+     {"teams": ["legacy", "lvg"], "winner": "legacy", "maps": 3},
+     {"teams": ["3dmax", "pain"], "winner": "pain", "maps": 2},
+     {"teams": ["aurora", "mouz"], "winner": "mouz", "maps": 3}
+    ],
+    [
+     {"teams": ["legacy", "mouz"], "winner": "mouz", "maps": 3},
+     {"teams": ["mongolz", "g2"], "winner": "mongolz", "maps": 2},
+     {"teams": ["vp", "pain"], "winner": "pain", "maps": 3}
+    ]
+   ]
+  }
+ ]
+}
