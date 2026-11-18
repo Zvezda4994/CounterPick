@@ -31,6 +31,7 @@ from pickem.optimizer.card import (
     evaluate,
     marginals,
 )
+from pickem.optimizer.compare import compare_cards, parse_card, pick_costs
 from pickem.optimizer.search import OptimizeResult, optimize
 from pickem.probs.uncertain import simulate_with_uncertainty
 from pickem.swiss import SwissResult, simulate_swiss
@@ -96,6 +97,11 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="also optimize with fixed probabilities (spread 0) and compare the best cards",
     )
+    parser.add_argument(
+        "--card",
+        help='score your own card against the best, e.g. "3-0: NiP, 9z; 0-3: Lynn Vision, '
+        'Chinggis Warriors; advance: FaZe, ..." (names: exact, initials or unique prefix)',
+    )
     return parser
 
 
@@ -128,6 +134,7 @@ def main(argv: Sequence[str] | None = None) -> int:
             raise _Error("--compare-spread needs a stage file with a strength model and spread > 0")
         if args.compare_spread and eval_sims == 0:
             raise _Error("--compare-spread needs holdout sims (--eval-sims > 0)")
+        card = parse_card(args.card, stage_file.stage.teams) if args.card else None
     except (OSError, ValueError, _Error) as exc:
         print(f"pickem-optimize: error: {exc}", file=sys.stderr)
         return 2
@@ -172,12 +179,57 @@ def main(argv: Sequence[str] | None = None) -> int:
     )
     if fixed_run is not None:
         report += "\n" + render_spread_comparison(stage_file, fixed_run, main_run)
+    if card is not None:
+        report += "\n" + render_card_comparison(stage_file, card, main_run)
     print(report)
     return 0
 
 
 def _pct(p: float) -> str:
     return f"{100 * p:5.1f}%"
+
+
+def render_card_comparison(stage_file: StageFile, card: Card, run: Run) -> str:
+    """Your card next to the optimizer's best on the same sims, then its costliest picks."""
+    evaluation = run.holdout if run.holdout is not None else run.search
+    source = "holdout sims" if run.holdout is not None else "search sims (in-sample)"
+    names = stage_file.stage.teams
+    best = run.result.best.card
+    result = compare_cards(card, best, evaluation)
+
+    lines = ["", f"Your card vs the optimizer's best ({source}, same sims for both)"]
+    lines.append(f"{'':<14}{'P(>=5)':>16}{'P(>=6)':>9}{'E[correct]':>12}")
+    for label, stats in (("your card", result.yours), ("optimizer #1", result.best)):
+        lines.append(
+            f"{label:<14}{_pct(stats.p5):>9} +/-{100 * stats.se5:.2f}"
+            f"{_pct(stats.p6):>9}{stats.expected:>12.2f}"
+        )
+    lines.append(
+        f"Difference: {100 * result.diff_p5:+.1f} points of P(>=5) (paired +/- "
+        f"{100 * result.diff_se:.2f}), {100 * (result.yours.p6 - result.best.p6):+.1f} points "
+        f"of P(>=6), {result.yours.expected - result.best.expected:+.2f} expected correct"
+    )
+    lines += ["Your card:", *_card_lines(stage_file, card)]
+    if card == best:
+        lines.append("This is the optimizer's best card.")
+
+    width = max(len(n) for n in names)
+    lines += [
+        "",
+        "Your picks, costliest first (best single change to each pick, chosen on search sims;",
+        f"gain in P(>=5) measured on {source}):",
+    ]
+    for cost in pick_costs(card, run.search, evaluation, names):
+        fix = (
+            f"{cost.change}: {100 * cost.gain:+.1f} points"
+            if cost.change
+            else "no single change helps"
+        )
+        lines.append(
+            f"  {CATEGORY_NAMES[cost.category]:<8}{names[cost.team]:<{width}}  "
+            f"P(correct) {_pct(cost.p_correct)}   {fix}"
+        )
+    return "\n".join(lines)
 
 
 def render_report(
