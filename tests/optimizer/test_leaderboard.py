@@ -268,3 +268,4 @@ def test_render_and_readme(root: Path, tmp_path: Path, capsys: pytest.CaptureFix
     assert "Cards that cleared:" in once and f"(leaderboards/{STAGE}.md)" in once
     full = Paths(root, STAGE).markdown.read_text(encoding="utf-8")
     assert "**Swing matches**" in full and "Round 5: NRG v Lynn Vision (Lynn Vision won)" in full
+    assert "leaves the best card at that point" in full and "biggest gain first" not in full

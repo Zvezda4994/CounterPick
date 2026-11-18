@@ -584,8 +584,10 @@ def card_section(card: dict[str, Any], records: dict[str, str | None]) -> list[s
     if pre["differences"]:
         gap = sum(d["gain"] for d in pre["differences"])
         lines.append(
-            "**Differences from the optimal card**, fixed one at a time, biggest gain first; the "
-            f"gains add up to the full gap of {100 * gap:+.1f} points of P(≥5):"
+            "**Differences from the optimal card**, fixed one at a time. Each step makes the "
+            "change that leaves the best card at that point; because picks interact, a later "
+            "step can gain more than an earlier one. The gains add up to the full gap of "
+            f"{100 * gap:+.1f} points of P(≥5):"
         )
         lines += [
             f"{i}. {_cell(d['change'])}: {100 * d['gain']:+.1f} points"
