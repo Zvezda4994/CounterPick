@@ -12,6 +12,9 @@ dependencies = [
     "pandas>=2.1",
 ]
 
+[project.scripts]
+pickem-optimize = "pickem.optimizer.cli:main"
+
 [project.optional-dependencies]
 notebooks = [
     "jupyterlab>=4",

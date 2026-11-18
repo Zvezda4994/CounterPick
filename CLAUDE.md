@@ -18,6 +18,12 @@ Goal: maximize P(>=5 correct picks) per Swiss stage of the PGL Singapore Major 2
 - Rounds 4-5: first rematch-free row of the 15-row table. If no rematch-free pairing exists: fewest rematches, top-most.
 - Validated by replaying all 3 Austin 2025 Swiss stages (pairings, Valve's published Difficulty, next-stage seeds).
 
+## Optimizer (src/pickem/optimizer/)
+- Pick'Em scoring is not in Valve's rules repo; it follows the spec above. Re-check the in-game rules before each Major.
+- Cards are ranked by exact counts: (#sims >= 5 correct, #sims >= 6, total correct).
+- Search: prune 3-0/0-3 candidates by marginal, greedy on E[min(correct, 5)], then steepest-ascent replace/exchange moves with restarts. Verified against brute force over all 10,090,080 cards (tests/optimizer/brute_force.py).
+- Report holdout numbers: the best card is chosen on search sims and re-scored on independent sims (pickem-optimize --eval-sims).
+
 ## Stack
 Python 3.11+, numpy, pandas, pytest. Vectorized simulation. Typed and tested.
 
