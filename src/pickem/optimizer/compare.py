@@ -31,8 +31,13 @@ _LABELS = {
 }
 
 
+def _compact(text: str) -> str:
+    return "".join(ch for ch in text.casefold() if ch.isalnum())
+
+
 def resolve_team(name: str, teams: Sequence[str]) -> int:
-    """Exact name (case ignored), else unique initials ("NiP"), else unique prefix."""
+    """Exact name (case ignored), else unique initials ("NiP"), else unique prefix, else unique
+    prefix ignoring spaces and punctuation ("100T" -> "100 Thieves")."""
     key = name.strip().casefold()
     if not key:
         raise ValueError("empty team name")
@@ -43,7 +48,10 @@ def resolve_team(name: str, teams: Sequence[str]) -> int:
         i for i, t in enumerate(teams) if "".join(w[0] for w in t.split()).casefold() == key
     ]
     prefix = [i for i, t in enumerate(teams) if t.casefold().startswith(key)]
-    for found in (initials, prefix):
+    compact = [
+        i for i, t in enumerate(teams) if _compact(key) and _compact(t).startswith(_compact(key))
+    ]
+    for found in (initials, prefix, compact):
         if len(found) == 1:
             return found[0]
         if len(found) > 1:

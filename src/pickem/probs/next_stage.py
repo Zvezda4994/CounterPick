@@ -62,23 +62,24 @@ def read_invited_file(path: str | Path) -> list[str]:
     return [line.strip() for line in lines if line.strip() and not line.strip().startswith("#")]
 
 
-def replay_from_results(previous: OddsSheet, path: str | Path) -> StageReplay:
-    rounds = load_results_csv(path, previous.teams)
-    return replay_stage(previous.teams, previous.seeds, rounds)
+def replay_from_results(teams_by_seed: Sequence[str], path: str | Path) -> StageReplay:
+    """Replay a typed results CSV; ``teams_by_seed[i]`` is seed ``i + 1``."""
+    rounds = load_results_csv(path, teams_by_seed)
+    return replay_stage(teams_by_seed, range(1, len(teams_by_seed) + 1), rounds)
 
 
 def replay_from_liquipedia(
-    previous: OddsSheet, wikitext: str, aliases: Mapping[str, str] | None = None
+    teams_by_seed: Sequence[str], wikitext: str, aliases: Mapping[str, str] | None = None
 ) -> StageReplay:
-    """Liquipedia aliases are matched to the sheet's team names by seed; the replay then checks
-    that round 1 really was seed k v k+8 under that mapping."""
+    """Liquipedia aliases are matched to ``teams_by_seed`` by seed; the replay then checks that
+    round 1 really was seed k v k+8 under that mapping."""
     stage = parse_stage(wikitext, aliases)
-    name = dict(zip(stage.seeds, previous.teams, strict=True))
+    name = dict(zip(stage.seeds, teams_by_seed, strict=True))
     rounds = tuple(
         tuple(MatchResult(name[m.team1], name[m.team2], name[m.winner], m.maps) for m in matches)
         for matches in stage.rounds
     )
-    return replay_stage(previous.teams, previous.seeds, rounds)
+    return replay_stage(teams_by_seed, range(1, len(teams_by_seed) + 1), rounds)
 
 
 def build_next_stage(
@@ -165,11 +166,12 @@ def main(argv: Sequence[str] | None = None) -> int:
     try:
         previous = load_odds_csv(args.previous)
         if args.results:
-            replay = replay_from_results(previous, args.results)
+            replay = replay_from_results(previous.teams, args.results)
             source = str(args.results)
         else:
             aliases = dict(item.partition("=")[::2] for item in args.alias)
-            replay = replay_from_liquipedia(previous, fetch_wikitext(args.liquipedia), aliases)
+            wikitext = fetch_wikitext(args.liquipedia)
+            replay = replay_from_liquipedia(previous.teams, wikitext, aliases)
             source = page_url(args.liquipedia)
         vrs = load_vrs(args.vrs)
         items = args.invited.split(",") if args.invited else read_invited_file(args.invited_file)

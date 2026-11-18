@@ -22,6 +22,8 @@ def test_resolve_team_names() -> None:
     assert resolve_team("NiP", NAMES) == 0  # initials
     assert resolve_team("lynn", NAMES) == 15  # unique prefix
     assert resolve_team(" 100 thieves ", NAMES) == 6
+    assert resolve_team("100T", NAMES) == 6  # prefix ignoring spaces
+    assert resolve_team("ChinggisW", NAMES) == 14
     with pytest.raises(ValueError, match="could be"):
         resolve_team("F", NAMES)  # FaZe or FlyQuest
     with pytest.raises(ValueError, match="unknown team 'Vitality'"):

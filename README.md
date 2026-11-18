@@ -73,6 +73,16 @@ The best card is still only 45%. Stage 1 is mostly BO1 (only matches that decide
 
 I'll fill this in as the event goes.
 
+## Card leaderboard
+
+Every card I can find (analysts, friends, mine, the optimizer, seed chalk) is scored before lock on a frozen snapshot of the inputs, then checked against what actually happened.
+
+### Singapore Stage 1
+
+<!-- leaderboard:singapore_stage1 -->
+Filled in by `pickem-cards render --name singapore_stage1 --readme README.md`.
+<!-- /leaderboard:singapore_stage1 -->
+
 ## Usage
 
 ```bash
@@ -87,6 +97,8 @@ uv run pickem-optimize data/stage1.json --card "3-0: 9z, NiP; 0-3: Lynn Vision, 
 ```
 
 `pickem-next-stage` builds the next stage's odds sheet from the previous stage's results and Valve's VRS file.
+
+`pickem-cards` runs the card leaderboard: `freeze` the stage file at lock, `score` the cards in `cards/<stage>.csv`, add `results` after the stage, and `render` the table into this README.
 
 ## Roadmap
 

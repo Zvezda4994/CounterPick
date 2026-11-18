@@ -23,6 +23,7 @@ Goal: maximize P(>=5 correct picks) per Swiss stage of the PGL Singapore Major 2
 - Cards are ranked by exact counts: (#sims >= 5 correct, #sims >= 6, total correct).
 - Search: prune 3-0/0-3 candidates by marginal, greedy on E[min(correct, 5)], then steepest-ascent replace/exchange moves with restarts. Verified against brute force over all 10,090,080 cards (tests/optimizer/brute_force.py).
 - Report holdout numbers: the best card is chosen on search sims and re-scored on independent sims (pickem-optimize --eval-sims).
+- Card leaderboard (pickem-cards): snapshots/ is frozen at lock and never replaced; leaderboards/*.json scores are computed once per card (seed 1) and never rewritten without --rescore. cards/ snapshots/ leaderboards/ are tracked and the repo is public.
 
 ## Odds layer (src/pickem/probs/)
 - Input: one CSV row per team (examples/singapore_2026_stage1_odds.csv is the template; fill a copy in data/). Decimal odds only; blanks are left out of the fit.
