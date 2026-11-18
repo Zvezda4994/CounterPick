@@ -18,6 +18,7 @@ pickem-optimize = "pickem.optimizer.cli:main"
 pickem-odds = "pickem.probs.cli:main"
 pickem-next-stage = "pickem.probs.next_stage:main"
 pickem-cards = "pickem.optimizer.leaderboard:main"
+pickem-playoffs = "pickem.playoffs.cli:main"
 
 [project.optional-dependencies]
 notebooks = [

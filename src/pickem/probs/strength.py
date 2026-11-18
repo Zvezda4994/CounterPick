@@ -26,6 +26,13 @@ def bo3_from_bo1(p: NDArray[np.float64]) -> NDArray[np.float64]:
     return result
 
 
+def bo5_from_bo1(p: NDArray[np.float64]) -> NDArray[np.float64]:
+    """Win a best-of-five (3 maps before the opponent's 3): p^3 (1 + 3q + 6q^2), q = 1 - p."""
+    q = 1.0 - p
+    result: NDArray[np.float64] = p**3 * (1.0 + 3.0 * q + 6.0 * q * q)
+    return result
+
+
 def stage_from_strengths(
     teams: tuple[str, ...], seeds: tuple[int, ...], strengths: ArrayLike
 ) -> StageInput:

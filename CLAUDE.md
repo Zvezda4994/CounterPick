@@ -33,8 +33,13 @@ Goal: maximize P(>=5 correct picks) per Swiss stage of the PGL Singapore Major 2
 - Singapore 2026 Stage 1 seeds = Valve global VRS of 2026-11-02 (verified against Liquipedia's round-1 pairs).
 - Next stage: pickem-next-stage replays the previous stage's results (CSV or --liquipedia) through the Swiss engine (swiss/replay.py); advancing teams = seeds 9-16 by final mid-stage seed, invited = seeds 1-8 by VRS standing. Verified on Austin 2025 Stage 1->2->3.
 
+## Playoffs (src/pickem/playoffs/)
+- Seeds = final Stage 3 mid-stage seeds (rulebook L253-L254); QF 1v8, 4v5 (half A) and 2v7, 3v6 (half B).
+- Format is a setting: "singapore" (default; BO5 final + BO3 third-place match, per Liquipedia PGL/2026/Singapore/Playoffs) vs "rulebook" (all BO3, no third-place match). BO5 = p^3(1+3q+6q^2).
+- All 256 bracket outcomes are enumerated exactly; strength uncertainty = average over draws (search draws vs report draws). Brute force: 128 bracket-consistent picks, 2,048 independent per-round picks. Default objective: >=2 QF AND >=1 SF AND GF correct. Which pick rule applies in-game is still to be confirmed.
+
 ## Stack
 Python 3.11+, numpy, pandas, pytest. Vectorized simulation. Typed and tested.
 
 ## Structure
-src/pickem/ (probs/, swiss/, optimizer/, ratings/, data/), tests/, notebooks/ (backtests), data/ (gitignored raw)
+src/pickem/ (probs/, swiss/, optimizer/, playoffs/, ratings/, data/), tests/, notebooks/ (backtests), data/ (gitignored raw)

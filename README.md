@@ -98,6 +98,8 @@ uv run pickem-optimize data/stage1.json --card "3-0: 9z, NiP; 0-3: Lynn Vision, 
 
 `pickem-next-stage` builds the next stage's odds sheet from the previous stage's results and Valve's VRS file.
 
+`pickem-playoffs` seeds the 8-team playoff bracket from Stage 3's results and brute-forces every bracket pick (both the bracket-consistent and the independent per-round rules) for P(≥2 QF AND ≥1 SF AND GF correct).
+
 `pickem-cards` runs the card leaderboard: `freeze` the stage file at lock, `score` the cards in `cards/<stage>.csv`, add `results` after the stage, and `render` the table into this README.
 
 ## Roadmap
