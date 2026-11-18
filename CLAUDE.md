@@ -15,4 +15,4 @@ Goal: maximize P(>=5 correct picks) per Swiss stage of the PGL Singapore Major 2
 Python 3.11+, numpy, pandas, pytest. Vectorized simulation. Typed and tested.
 
 ## Structure
-src/ (probs/, swiss/, optimizer/, ratings/, data/), tests/, notebooks/ (backtests), data/ (gitignored raw)
+src/pickem/ (probs/, swiss/, optimizer/, ratings/, data/), tests/, notebooks/ (backtests), data/ (gitignored raw)
