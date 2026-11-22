@@ -44,7 +44,7 @@ For the optimizer, a separate brute-force script scores all 10,090,080 cards on 
 
 The odds fit was checked by generating odds from strengths I chose, adding bookmaker margins (5% on match odds, 8% on qualify odds), and fitting them back. Every strength comes back within 0.05 logit.
 
-There's also a slow, plain version of the Swiss rules that the fast one is compared against on the same random draws. 222 tests in total, with strict mypy and ruff.
+There's also a slow, plain version of the Swiss rules that the fast one is compared against on the same random draws. 283 tests in total, with strict mypy and ruff.
 
 ## Singapore Stage 1: my card vs the optimizer
 
@@ -108,7 +108,7 @@ uv run pickem-optimize data/stage1.json --card "3-0: 9z, NiP; 0-3: Lynn Vision, 
 - [x] P(≥5) optimizer with holdout scoring
 - [x] Odds layer with strength uncertainty
 - [x] Next-stage builder
-- [ ] Playoff picks
+- [x] Playoff picks (still to confirm in-game whether picks must follow the bracket)
 - [ ] My own rating model (map-level Glicko-2), backtested against the market on Austin, Budapest and Cologne
 
 ## Credits
