@@ -27,6 +27,18 @@ Maximize P(>=5 correct) per stage, with holdout sims and a brute-force check (`s
 - Maximize P(>=2 QF AND >=1 SF AND GF correct). (done)
 - Confirm in-game whether picks must follow the bracket. (open)
 
+## Phase 3c: HLTV fantasy (built for Swiss stages)
+`src/pickem/fantasy/`, `pickem-fantasy`.
+- Team outcomes to maps and rounds; player model fitted on IEM Beijing 2026. (done)
+- HLTV scoring with padding, roles and boosters. (done)
+- Max expected points, and E[season points] against a sampled field. (done)
+- `--round` re-planning during the stage. (done)
+- Still open:
+  - confirm the role rules (distinct roles; changeable each round?)
+  - fit booster rates (bo3.gg)
+  - backtest on IEM Beijing
+  - playoffs game
+
 ## Phase 4: Portfolio
 - Data pipeline (bo3.gg / Liquipedia / PandaScore) with cross-source validation.
 - Map-level Glicko-2.
