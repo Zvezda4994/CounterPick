@@ -19,7 +19,7 @@ from pathlib import Path
 from pickem.optimizer.card import ADVANCE, OH_THREE, THREE_OH, Card
 from pickem.optimizer.compare import resolve_team
 
-SOURCES = ("analyst", "friend", "me", "optimizer", "seed chalk", "common method")
+SOURCES = ("analyst", "friend", "me", "optimizer", "seed chalk", "common method", "community")
 PICK_COLUMNS = (
     "three_oh_1",
     "three_oh_2",

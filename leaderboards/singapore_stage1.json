@@ -1,0 +1,1735 @@
+{
+ "version": 1,
+ "name": "singapore_stage1",
+ "snapshot": {
+  "path": "snapshots/singapore_stage1.json",
+  "sha256": "414c319c80a45e0ae589b849b96da6e4b07e6bb23f7a5f9118521e2bcd068524",
+  "frozen": {
+   "at": "2026-11-28T02:17:30+00:00",
+   "source": "data\\stage1.json",
+   "source_sha256": "b9ee860e1a3d17e3864c113d1faccbfa1053429538b42eea048b908bfa23026f",
+   "odds": "snapshots/singapore_stage1_odds.csv",
+   "code_commit": "39f9858+dirty"
+  }
+ },
+ "scoring": {
+  "sims": 100000,
+  "seed": 1,
+  "spread": 1.0,
+  "sims_per_draw": 1000,
+  "optimizer": {
+   "seed": 0,
+   "sims": 100000
+  },
+  "code_commit": "39f9858+dirty",
+  "scored_at": "2026-11-28T02:17:34+00:00"
+ },
+ "optimal": {
+  "name": "Optimizer #1",
+  "picks": {
+   "3-0": [
+    "PARIVISION",
+    "100 Thieves"
+   ],
+   "0-3": [
+    "Chinggis Warriors",
+    "Lynn Vision"
+   ],
+   "advance": [
+    "Ninjas in Pyjamas",
+    "HEROIC",
+    "FaZe",
+    "Liquid",
+    "M80",
+    "GOSH"
+   ]
+  }
+ },
+ "teams": [
+  {
+   "team": "Ninjas in Pyjamas",
+   "seed": 1,
+   "p": {
+    "3-0": 0.20369,
+    "advance": 0.50113,
+    "0-3": 0.03729
+   },
+   "records": {
+    "3-0": 0.20369,
+    "3-1": 0.27187,
+    "3-2": 0.22926,
+    "2-3": 0.15498,
+    "1-3": 0.10291,
+    "0-3": 0.03729
+   },
+   "actual_record": "3-0",
+   "p_actual_record": 0.20369
+  },
+  {
+   "team": "PARIVISION",
+   "seed": 2,
+   "p": {
+    "3-0": 0.25307,
+    "advance": 0.52599,
+    "0-3": 0.02493
+   },
+   "records": {
+    "3-0": 0.25307,
+    "3-1": 0.29946,
+    "3-2": 0.22653,
+    "2-3": 0.1191,
+    "1-3": 0.07691,
+    "0-3": 0.02493
+   },
+   "actual_record": "3-1",
+   "p_actual_record": 0.29946
+  },
+  {
+   "team": "HEROIC",
+   "seed": 3,
+   "p": {
+    "3-0": 0.21092,
+    "advance": 0.49801,
+    "0-3": 0.03231
+   },
+   "records": {
+    "3-0": 0.21092,
+    "3-1": 0.2702,
+    "3-2": 0.22781,
+    "2-3": 0.15657,
+    "1-3": 0.10219,
+    "0-3": 0.03231
+   },
+   "actual_record": "2-3",
+   "p_actual_record": 0.15657
+  },
+  {
+   "team": "FaZe",
+   "seed": 4,
+   "p": {
+    "3-0": 0.22454,
+    "advance": 0.50297,
+    "0-3": 0.03009
+   },
+   "records": {
+    "3-0": 0.22454,
+    "3-1": 0.27477,
+    "3-2": 0.2282,
+    "2-3": 0.14486,
+    "1-3": 0.09754,
+    "0-3": 0.03009
+   },
+   "actual_record": "1-3",
+   "p_actual_record": 0.09754
+  },
+  {
+   "team": "Liquid",
+   "seed": 5,
+   "p": {
+    "3-0": 0.19423,
+    "advance": 0.52337,
+    "0-3": 0.03581
+   },
+   "records": {
+    "3-0": 0.19423,
+    "3-1": 0.28075,
+    "3-2": 0.24262,
+    "2-3": 0.14406,
+    "1-3": 0.10253,
+    "0-3": 0.03581
+   },
+   "actual_record": "3-1",
+   "p_actual_record": 0.28075
+  },
+  {
+   "team": "Eternal Fire",
+   "seed": 6,
+   "p": {
+    "3-0": 0.0939,
+    "advance": 0.36466,
+    "0-3": 0.08937
+   },
+   "records": {
+    "3-0": 0.0939,
+    "3-1": 0.17292,
+    "3-2": 0.19174,
+    "2-3": 0.24219,
+    "1-3": 0.20988,
+    "0-3": 0.08937
+   },
+   "actual_record": "3-1",
+   "p_actual_record": 0.17292
+  },
+  {
+   "team": "100 Thieves",
+   "seed": 7,
+   "p": {
+    "3-0": 0.26803,
+    "advance": 0.5031,
+    "0-3": 0.02271
+   },
+   "records": {
+    "3-0": 0.26803,
+    "3-1": 0.28942,
+    "3-2": 0.21368,
+    "2-3": 0.12474,
+    "1-3": 0.08142,
+    "0-3": 0.02271
+   },
+   "actual_record": "3-2",
+   "p_actual_record": 0.21368
+  },
+  {
+   "team": "9z",
+   "seed": 8,
+   "p": {
+    "3-0": 0.13561,
+    "advance": 0.43156,
+    "0-3": 0.06196
+   },
+   "records": {
+    "3-0": 0.13561,
+    "3-1": 0.21354,
+    "3-2": 0.21802,
+    "2-3": 0.20774,
+    "1-3": 0.16313,
+    "0-3": 0.06196
+   },
+   "actual_record": "1-3",
+   "p_actual_record": 0.16313
+  },
+  {
+   "team": "M80",
+   "seed": 9,
+   "p": {
+    "3-0": 0.09804,
+    "advance": 0.42415,
+    "0-3": 0.08318
+   },
+   "records": {
+    "3-0": 0.09804,
+    "3-1": 0.19416,
+    "3-2": 0.22999,
+    "2-3": 0.20839,
+    "1-3": 0.18624,
+    "0-3": 0.08318
+   },
+   "actual_record": "2-3",
+   "p_actual_record": 0.20839
+  },
+  {
+   "team": "DENDELE",
+   "seed": 10,
+   "p": {
+    "3-0": 0.07849,
+    "advance": 0.39054,
+    "0-3": 0.10692
+   },
+   "records": {
+    "3-0": 0.07849,
+    "3-1": 0.17311,
+    "3-2": 0.21743,
+    "2-3": 0.21248,
+    "1-3": 0.21157,
+    "0-3": 0.10692
+   },
+   "actual_record": "0-3",
+   "p_actual_record": 0.10692
+  },
+  {
+   "team": "Imperial",
+   "seed": 11,
+   "p": {
+    "3-0": 0.04388,
+    "advance": 0.26177,
+    "0-3": 0.17136
+   },
+   "records": {
+    "3-0": 0.04388,
+    "3-1": 0.10786,
+    "3-2": 0.15391,
+    "2-3": 0.24309,
+    "1-3": 0.2799,
+    "0-3": 0.17136
+   },
+   "actual_record": "3-2",
+   "p_actual_record": 0.15391
+  },
+  {
+   "team": "Wildcard",
+   "seed": 12,
+   "p": {
+    "3-0": 0.02934,
+    "advance": 0.20088,
+    "0-3": 0.22336
+   },
+   "records": {
+    "3-0": 0.02934,
+    "3-1": 0.07974,
+    "3-2": 0.12114,
+    "2-3": 0.23747,
+    "1-3": 0.30895,
+    "0-3": 0.22336
+   },
+   "actual_record": "2-3",
+   "p_actual_record": 0.23747
+  },
+  {
+   "team": "GOSH",
+   "seed": 13,
+   "p": {
+    "3-0": 0.08974,
+    "advance": 0.4215,
+    "0-3": 0.09657
+   },
+   "records": {
+    "3-0": 0.08974,
+    "3-1": 0.18862,
+    "3-2": 0.23288,
+    "2-3": 0.2045,
+    "1-3": 0.18769,
+    "0-3": 0.09657
+   },
+   "actual_record": "0-3",
+   "p_actual_record": 0.09657
+  },
+  {
+   "team": "FlyQuest",
+   "seed": 14,
+   "p": {
+    "3-0": 0.04858,
+    "advance": 0.25914,
+    "0-3": 0.16854
+   },
+   "records": {
+    "3-0": 0.04858,
+    "3-1": 0.10878,
+    "3-2": 0.15036,
+    "2-3": 0.24901,
+    "1-3": 0.27473,
+    "0-3": 0.16854
+   },
+   "actual_record": "3-0",
+   "p_actual_record": 0.04858
+  },
+  {
+   "team": "Chinggis Warriors",
+   "seed": 15,
+   "p": {
+    "3-0": 0.00512,
+    "advance": 0.04387,
+    "0-3": 0.51712
+   },
+   "records": {
+    "3-0": 0.00512,
+    "3-1": 0.01633,
+    "3-2": 0.02754,
+    "2-3": 0.13122,
+    "1-3": 0.30267,
+    "0-3": 0.51712
+   },
+   "actual_record": "1-3",
+   "p_actual_record": 0.30267
+  },
+  {
+   "team": "Lynn Vision",
+   "seed": 16,
+   "p": {
+    "3-0": 0.02282,
+    "advance": 0.14736,
+    "0-3": 0.29848
+   },
+   "records": {
+    "3-0": 0.02282,
+    "3-1": 0.05847,
+    "3-2": 0.08889,
+    "2-3": 0.2196,
+    "1-3": 0.31174,
+    "0-3": 0.29848
+   },
+   "actual_record": "3-2",
+   "p_actual_record": 0.08889
+  }
+ ],
+ "cards": [
+  {
+   "name": "Friend 1",
+   "source": "friend",
+   "link": "",
+   "picks": {
+    "3-0": [
+     "FaZe",
+     "Liquid"
+    ],
+    "0-3": [
+     "Chinggis Warriors",
+     "Lynn Vision"
+    ],
+    "advance": [
+     "Ninjas in Pyjamas",
+     "PARIVISION",
+     "HEROIC",
+     "Eternal Fire",
+     "9z",
+     "M80"
+    ]
+   },
+   "pre": {
+    "p5": 0.34929,
+    "p6": 0.13681,
+    "expected": 3.97987,
+    "se5": 0.0015076023875677566,
+    "distribution": [
+     262,
+     2801,
+     11128,
+     23095,
+     27785,
+     21248,
+     10147,
+     2950,
+     525,
+     57,
+     2
+    ],
+    "picks": [
+     {
+      "category": "3-0",
+      "team": "FaZe",
+      "p_correct": 0.22454
+     },
+     {
+      "category": "3-0",
+      "team": "Liquid",
+      "p_correct": 0.19423
+     },
+     {
+      "category": "0-3",
+      "team": "Chinggis Warriors",
+      "p_correct": 0.51712
+     },
+     {
+      "category": "0-3",
+      "team": "Lynn Vision",
+      "p_correct": 0.29848
+     },
+     {
+      "category": "Advance",
+      "team": "Ninjas in Pyjamas",
+      "p_correct": 0.50113
+     },
+     {
+      "category": "Advance",
+      "team": "PARIVISION",
+      "p_correct": 0.52599
+     },
+     {
+      "category": "Advance",
+      "team": "HEROIC",
+      "p_correct": 0.49801
+     },
+     {
+      "category": "Advance",
+      "team": "Eternal Fire",
+      "p_correct": 0.36466
+     },
+     {
+      "category": "Advance",
+      "team": "9z",
+      "p_correct": 0.43156
+     },
+     {
+      "category": "Advance",
+      "team": "M80",
+      "p_correct": 0.42415
+     }
+    ],
+    "overlap": {
+     "identical": 5,
+     "other_slot": 3
+    },
+    "differences": [
+     {
+      "change": "3-0: Liquid → 100 Thieves",
+      "gain": 0.025409999999999988
+     },
+     {
+      "change": "Advance: Eternal Fire → Liquid",
+      "gain": 0.041690000000000005
+     },
+     {
+      "change": "3-0: FaZe → PARIVISION (PARIVISION leaves Advance, FaZe takes its place)",
+      "gain": 0.0017400000000000193
+     },
+     {
+      "change": "Advance: 9z → GOSH",
+      "gain": -0.0019299999999999873
+     }
+    ],
+    "label": "two dark horses to 3-0; 3-0 favourite in Advance",
+    "label_parts": [
+     "two dark horses to 3-0",
+     "3-0 favourite in Advance"
+    ]
+   },
+   "post": {
+    "correct": 2,
+    "cleared": false,
+    "picks": [
+     {
+      "category": "3-0",
+      "team": "FaZe",
+      "p_correct": 0.22454,
+      "correct": false,
+      "p_actual": 0.77546
+     },
+     {
+      "category": "3-0",
+      "team": "Liquid",
+      "p_correct": 0.19423,
+      "correct": false,
+      "p_actual": 0.80577
+     },
+     {
+      "category": "0-3",
+      "team": "Chinggis Warriors",
+      "p_correct": 0.51712,
+      "correct": false,
+      "p_actual": 0.48288
+     },
+     {
+      "category": "0-3",
+      "team": "Lynn Vision",
+      "p_correct": 0.29848,
+      "correct": false,
+      "p_actual": 0.7015199999999999
+     },
+     {
+      "category": "Advance",
+      "team": "Ninjas in Pyjamas",
+      "p_correct": 0.50113,
+      "correct": false,
+      "p_actual": 0.49887000000000004
+     },
+     {
+      "category": "Advance",
+      "team": "PARIVISION",
+      "p_correct": 0.52599,
+      "correct": true,
+      "p_actual": 0.52599
+     },
+     {
+      "category": "Advance",
+      "team": "HEROIC",
+      "p_correct": 0.49801,
+      "correct": false,
+      "p_actual": 0.5019899999999999
+     },
+     {
+      "category": "Advance",
+      "team": "Eternal Fire",
+      "p_correct": 0.36466,
+      "correct": true,
+      "p_actual": 0.36466
+     },
+     {
+      "category": "Advance",
+      "team": "9z",
+      "p_correct": 0.43156,
+      "correct": false,
+      "p_actual": 0.5684400000000001
+     },
+     {
+      "category": "Advance",
+      "team": "M80",
+      "p_correct": 0.42415,
+      "correct": false,
+      "p_actual": 0.57585
+     }
+    ],
+    "p_exact": 0.11128,
+    "p_at_least": 0.96937,
+    "p_cleared_outcome": 0.65071,
+    "swings": [
+     {
+      "round": 2,
+      "team1": "Ninjas in Pyjamas",
+      "team2": "Lynn Vision",
+      "winner": "Ninjas in Pyjamas",
+      "p_clear_if_flipped": 0.6025,
+      "certain": false
+     },
+     {
+      "round": 2,
+      "team1": "100 Thieves",
+      "team2": "Imperial",
+      "winner": "Imperial",
+      "p_clear_if_flipped": 0.6515,
+      "certain": false
+     },
+     {
+      "round": 2,
+      "team1": "9z",
+      "team2": "M80",
+      "winner": "M80",
+      "p_clear_if_flipped": 0.6285,
+      "certain": false
+     },
+     {
+      "round": 2,
+      "team1": "FaZe",
+      "team2": "GOSH",
+      "winner": "FaZe",
+      "p_clear_if_flipped": 0.592,
+      "certain": false
+     },
+     {
+      "round": 3,
+      "team1": "Ninjas in Pyjamas",
+      "team2": "Liquid",
+      "winner": "Ninjas in Pyjamas",
+      "p_clear_if_flipped": 0.59275,
+      "certain": false
+     }
+    ]
+   }
+  },
+  {
+   "name": "Mine (submitted)",
+   "source": "me",
+   "link": "",
+   "picks": {
+    "3-0": [
+     "PARIVISION",
+     "100 Thieves"
+    ],
+    "0-3": [
+     "Chinggis Warriors",
+     "Lynn Vision"
+    ],
+    "advance": [
+     "Ninjas in Pyjamas",
+     "HEROIC",
+     "FaZe",
+     "Liquid",
+     "M80",
+     "GOSH"
+    ]
+   },
+   "pre": {
+    "p5": 0.4162,
+    "p6": 0.18653,
+    "expected": 4.20783,
+    "se5": 0.001558773748816678,
+    "distribution": [
+     165,
+     2215,
+     9594,
+     20047,
+     26359,
+     22967,
+     13019,
+     4390,
+     1082,
+     152,
+     10
+    ],
+    "picks": [
+     {
+      "category": "3-0",
+      "team": "PARIVISION",
+      "p_correct": 0.25307
+     },
+     {
+      "category": "3-0",
+      "team": "100 Thieves",
+      "p_correct": 0.26803
+     },
+     {
+      "category": "0-3",
+      "team": "Chinggis Warriors",
+      "p_correct": 0.51712
+     },
+     {
+      "category": "0-3",
+      "team": "Lynn Vision",
+      "p_correct": 0.29848
+     },
+     {
+      "category": "Advance",
+      "team": "Ninjas in Pyjamas",
+      "p_correct": 0.50113
+     },
+     {
+      "category": "Advance",
+      "team": "HEROIC",
+      "p_correct": 0.49801
+     },
+     {
+      "category": "Advance",
+      "team": "FaZe",
+      "p_correct": 0.50297
+     },
+     {
+      "category": "Advance",
+      "team": "Liquid",
+      "p_correct": 0.52337
+     },
+     {
+      "category": "Advance",
+      "team": "M80",
+      "p_correct": 0.42415
+     },
+     {
+      "category": "Advance",
+      "team": "GOSH",
+      "p_correct": 0.4215
+     }
+    ],
+    "overlap": {
+     "identical": 10,
+     "other_slot": 0
+    },
+    "differences": [],
+    "label": "optimizer pick",
+    "label_parts": [
+     "optimizer pick"
+    ]
+   },
+   "post": {
+    "correct": 1,
+    "cleared": false,
+    "picks": [
+     {
+      "category": "3-0",
+      "team": "PARIVISION",
+      "p_correct": 0.25307,
+      "correct": false,
+      "p_actual": 0.74693
+     },
+     {
+      "category": "3-0",
+      "team": "100 Thieves",
+      "p_correct": 0.26803,
+      "correct": false,
+      "p_actual": 0.73197
+     },
+     {
+      "category": "0-3",
+      "team": "Chinggis Warriors",
+      "p_correct": 0.51712,
+      "correct": false,
+      "p_actual": 0.48288
+     },
+     {
+      "category": "0-3",
+      "team": "Lynn Vision",
+      "p_correct": 0.29848,
+      "correct": false,
+      "p_actual": 0.7015199999999999
+     },
+     {
+      "category": "Advance",
+      "team": "Ninjas in Pyjamas",
+      "p_correct": 0.50113,
+      "correct": false,
+      "p_actual": 0.49887000000000004
+     },
+     {
+      "category": "Advance",
+      "team": "HEROIC",
+      "p_correct": 0.49801,
+      "correct": false,
+      "p_actual": 0.5019899999999999
+     },
+     {
+      "category": "Advance",
+      "team": "FaZe",
+      "p_correct": 0.50297,
+      "correct": false,
+      "p_actual": 0.49702999999999997
+     },
+     {
+      "category": "Advance",
+      "team": "Liquid",
+      "p_correct": 0.52337,
+      "correct": true,
+      "p_actual": 0.52337
+     },
+     {
+      "category": "Advance",
+      "team": "M80",
+      "p_correct": 0.42415,
+      "correct": false,
+      "p_actual": 0.57585
+     },
+     {
+      "category": "Advance",
+      "team": "GOSH",
+      "p_correct": 0.4215,
+      "correct": false,
+      "p_actual": 0.5785
+     }
+    ],
+    "p_exact": 0.02215,
+    "p_at_least": 0.99835,
+    "p_cleared_outcome": 0.5838,
+    "swings": []
+   }
+  },
+  {
+   "name": "YouTube sim",
+   "source": "analyst",
+   "link": "",
+   "picks": {
+    "3-0": [
+     "Ninjas in Pyjamas",
+     "PARIVISION"
+    ],
+    "0-3": [
+     "Chinggis Warriors",
+     "Lynn Vision"
+    ],
+    "advance": [
+     "HEROIC",
+     "FaZe",
+     "Liquid",
+     "Eternal Fire",
+     "100 Thieves",
+     "M80"
+    ]
+   },
+   "pre": {
+    "p5": 0.36887,
+    "p6": 0.15041,
+    "expected": 4.08862,
+    "se5": 0.0015257946228113403,
+    "distribution": [
+     136,
+     1940,
+     9653,
+     22718,
+     28666,
+     21846,
+     10765,
+     3364,
+     785,
+     120,
+     7
+    ],
+    "picks": [
+     {
+      "category": "3-0",
+      "team": "Ninjas in Pyjamas",
+      "p_correct": 0.20369
+     },
+     {
+      "category": "3-0",
+      "team": "PARIVISION",
+      "p_correct": 0.25307
+     },
+     {
+      "category": "0-3",
+      "team": "Chinggis Warriors",
+      "p_correct": 0.51712
+     },
+     {
+      "category": "0-3",
+      "team": "Lynn Vision",
+      "p_correct": 0.29848
+     },
+     {
+      "category": "Advance",
+      "team": "HEROIC",
+      "p_correct": 0.49801
+     },
+     {
+      "category": "Advance",
+      "team": "FaZe",
+      "p_correct": 0.50297
+     },
+     {
+      "category": "Advance",
+      "team": "Liquid",
+      "p_correct": 0.52337
+     },
+     {
+      "category": "Advance",
+      "team": "Eternal Fire",
+      "p_correct": 0.36466
+     },
+     {
+      "category": "Advance",
+      "team": "100 Thieves",
+      "p_correct": 0.5031
+     },
+     {
+      "category": "Advance",
+      "team": "M80",
+      "p_correct": 0.42415
+     }
+    ],
+    "overlap": {
+     "identical": 7,
+     "other_slot": 2
+    },
+    "differences": [
+     {
+      "change": "3-0: Ninjas in Pyjamas → 100 Thieves (100 Thieves leaves Advance, Ninjas in Pyjamas takes its place)",
+      "gain": 0.031430000000000013
+     },
+     {
+      "change": "Advance: Eternal Fire → GOSH",
+      "gain": 0.015900000000000025
+     }
+    ],
+    "label": "one dark horse to 3-0; 3-0 favourite in Advance",
+    "label_parts": [
+     "one dark horse to 3-0",
+     "3-0 favourite in Advance"
+    ]
+   },
+   "post": {
+    "correct": 4,
+    "cleared": false,
+    "picks": [
+     {
+      "category": "3-0",
+      "team": "Ninjas in Pyjamas",
+      "p_correct": 0.20369,
+      "correct": true,
+      "p_actual": 0.20369
+     },
+     {
+      "category": "3-0",
+      "team": "PARIVISION",
+      "p_correct": 0.25307,
+      "correct": false,
+      "p_actual": 0.74693
+     },
+     {
+      "category": "0-3",
+      "team": "Chinggis Warriors",
+      "p_correct": 0.51712,
+      "correct": false,
+      "p_actual": 0.48288
+     },
+     {
+      "category": "0-3",
+      "team": "Lynn Vision",
+      "p_correct": 0.29848,
+      "correct": false,
+      "p_actual": 0.7015199999999999
+     },
+     {
+      "category": "Advance",
+      "team": "HEROIC",
+      "p_correct": 0.49801,
+      "correct": false,
+      "p_actual": 0.5019899999999999
+     },
+     {
+      "category": "Advance",
+      "team": "FaZe",
+      "p_correct": 0.50297,
+      "correct": false,
+      "p_actual": 0.49702999999999997
+     },
+     {
+      "category": "Advance",
+      "team": "Liquid",
+      "p_correct": 0.52337,
+      "correct": true,
+      "p_actual": 0.52337
+     },
+     {
+      "category": "Advance",
+      "team": "Eternal Fire",
+      "p_correct": 0.36466,
+      "correct": true,
+      "p_actual": 0.36466
+     },
+     {
+      "category": "Advance",
+      "team": "100 Thieves",
+      "p_correct": 0.5031,
+      "correct": true,
+      "p_actual": 0.5031
+     },
+     {
+      "category": "Advance",
+      "team": "M80",
+      "p_correct": 0.42415,
+      "correct": false,
+      "p_actual": 0.57585
+     }
+    ],
+    "p_exact": 0.28666,
+    "p_at_least": 0.65553,
+    "p_cleared_outcome": 0.63113,
+    "swings": [
+     {
+      "round": 1,
+      "team1": "Eternal Fire",
+      "team2": "FlyQuest",
+      "winner": "FlyQuest",
+      "p_clear_if_flipped": 0.67025,
+      "certain": false
+     },
+     {
+      "round": 2,
+      "team1": "PARIVISION",
+      "team2": "FlyQuest",
+      "winner": "FlyQuest",
+      "p_clear_if_flipped": 0.958,
+      "certain": false
+     },
+     {
+      "round": 2,
+      "team1": "Liquid",
+      "team2": "Wildcard",
+      "winner": "Liquid",
+      "p_clear_if_flipped": 0.66625,
+      "certain": false
+     },
+     {
+      "round": 3,
+      "team1": "PARIVISION",
+      "team2": "FaZe",
+      "winner": "PARIVISION",
+      "p_clear_if_flipped": 0.6335,
+      "certain": false
+     },
+     {
+      "round": 3,
+      "team1": "GOSH",
+      "team2": "Chinggis Warriors",
+      "winner": "Chinggis Warriors",
+      "p_clear_if_flipped": 0.81425,
+      "certain": false
+     },
+     {
+      "round": 4,
+      "team1": "M80",
+      "team2": "Eternal Fire",
+      "winner": "Eternal Fire",
+      "p_clear_if_flipped": 0.82025,
+      "certain": false
+     },
+     {
+      "round": 4,
+      "team1": "HEROIC",
+      "team2": "FaZe",
+      "winner": "HEROIC",
+      "p_clear_if_flipped": 0.84125,
+      "certain": false
+     },
+     {
+      "round": 5,
+      "team1": "Lynn Vision",
+      "team2": "HEROIC",
+      "winner": "Lynn Vision",
+      "p_clear_if_flipped": 1.0,
+      "certain": true
+     }
+    ]
+   }
+  },
+  {
+   "name": "timsunmey7143",
+   "source": "community",
+   "link": "",
+   "picks": {
+    "3-0": [
+     "Ninjas in Pyjamas",
+     "HEROIC"
+    ],
+    "0-3": [
+     "Chinggis Warriors",
+     "Lynn Vision"
+    ],
+    "advance": [
+     "PARIVISION",
+     "FaZe",
+     "Liquid",
+     "100 Thieves",
+     "M80",
+     "DENDELE"
+    ]
+   },
+   "pre": {
+    "p5": 0.37554,
+    "p6": 0.15172,
+    "expected": 4.10033,
+    "se5": 0.0015313709818329457,
+    "distribution": [
+     131,
+     2007,
+     9496,
+     22163,
+     28649,
+     22382,
+     11017,
+     3400,
+     664,
+     85,
+     6
+    ],
+    "picks": [
+     {
+      "category": "3-0",
+      "team": "Ninjas in Pyjamas",
+      "p_correct": 0.20369
+     },
+     {
+      "category": "3-0",
+      "team": "HEROIC",
+      "p_correct": 0.21092
+     },
+     {
+      "category": "0-3",
+      "team": "Chinggis Warriors",
+      "p_correct": 0.51712
+     },
+     {
+      "category": "0-3",
+      "team": "Lynn Vision",
+      "p_correct": 0.29848
+     },
+     {
+      "category": "Advance",
+      "team": "PARIVISION",
+      "p_correct": 0.52599
+     },
+     {
+      "category": "Advance",
+      "team": "FaZe",
+      "p_correct": 0.50297
+     },
+     {
+      "category": "Advance",
+      "team": "Liquid",
+      "p_correct": 0.52337
+     },
+     {
+      "category": "Advance",
+      "team": "100 Thieves",
+      "p_correct": 0.5031
+     },
+     {
+      "category": "Advance",
+      "team": "M80",
+      "p_correct": 0.42415
+     },
+     {
+      "category": "Advance",
+      "team": "DENDELE",
+      "p_correct": 0.39054
+     }
+    ],
+    "overlap": {
+     "identical": 5,
+     "other_slot": 4
+    },
+    "differences": [
+     {
+      "change": "3-0: Ninjas in Pyjamas → 100 Thieves (100 Thieves leaves Advance, Ninjas in Pyjamas takes its place)",
+      "gain": 0.027210000000000012
+     },
+     {
+      "change": "Advance: DENDELE → GOSH",
+      "gain": 0.007249999999999979
+     },
+     {
+      "change": "3-0: HEROIC → PARIVISION (PARIVISION leaves Advance, HEROIC takes its place)",
+      "gain": 0.006200000000000039
+     }
+    ],
+    "label": "two dark horses to 3-0; 3-0 favourites in Advance",
+    "label_parts": [
+     "two dark horses to 3-0",
+     "3-0 favourites in Advance"
+    ]
+   },
+   "post": {
+    "correct": 4,
+    "cleared": false,
+    "picks": [
+     {
+      "category": "3-0",
+      "team": "Ninjas in Pyjamas",
+      "p_correct": 0.20369,
+      "correct": true,
+      "p_actual": 0.20369
+     },
+     {
+      "category": "3-0",
+      "team": "HEROIC",
+      "p_correct": 0.21092,
+      "correct": false,
+      "p_actual": 0.78908
+     },
+     {
+      "category": "0-3",
+      "team": "Chinggis Warriors",
+      "p_correct": 0.51712,
+      "correct": false,
+      "p_actual": 0.48288
+     },
+     {
+      "category": "0-3",
+      "team": "Lynn Vision",
+      "p_correct": 0.29848,
+      "correct": false,
+      "p_actual": 0.7015199999999999
+     },
+     {
+      "category": "Advance",
+      "team": "PARIVISION",
+      "p_correct": 0.52599,
+      "correct": true,
+      "p_actual": 0.52599
+     },
+     {
+      "category": "Advance",
+      "team": "FaZe",
+      "p_correct": 0.50297,
+      "correct": false,
+      "p_actual": 0.49702999999999997
+     },
+     {
+      "category": "Advance",
+      "team": "Liquid",
+      "p_correct": 0.52337,
+      "correct": true,
+      "p_actual": 0.52337
+     },
+     {
+      "category": "Advance",
+      "team": "100 Thieves",
+      "p_correct": 0.5031,
+      "correct": true,
+      "p_actual": 0.5031
+     },
+     {
+      "category": "Advance",
+      "team": "M80",
+      "p_correct": 0.42415,
+      "correct": false,
+      "p_actual": 0.57585
+     },
+     {
+      "category": "Advance",
+      "team": "DENDELE",
+      "p_correct": 0.39054,
+      "correct": false,
+      "p_actual": 0.60946
+     }
+    ],
+    "p_exact": 0.28649,
+    "p_at_least": 0.66203,
+    "p_cleared_outcome": 0.62446,
+    "swings": [
+     {
+      "round": 1,
+      "team1": "HEROIC",
+      "team2": "Imperial",
+      "winner": "Imperial",
+      "p_clear_if_flipped": 0.5255,
+      "certain": false
+     },
+     {
+      "round": 1,
+      "team1": "Eternal Fire",
+      "team2": "FlyQuest",
+      "winner": "FlyQuest",
+      "p_clear_if_flipped": 0.509,
+      "certain": false
+     },
+     {
+      "round": 2,
+      "team1": "PARIVISION",
+      "team2": "FlyQuest",
+      "winner": "FlyQuest",
+      "p_clear_if_flipped": 0.7215,
+      "certain": false
+     },
+     {
+      "round": 2,
+      "team1": "Liquid",
+      "team2": "Wildcard",
+      "winner": "Liquid",
+      "p_clear_if_flipped": 0.705,
+      "certain": false
+     },
+     {
+      "round": 3,
+      "team1": "GOSH",
+      "team2": "Chinggis Warriors",
+      "winner": "Chinggis Warriors",
+      "p_clear_if_flipped": 0.8495,
+      "certain": false
+     },
+     {
+      "round": 4,
+      "team1": "M80",
+      "team2": "Eternal Fire",
+      "winner": "Eternal Fire",
+      "p_clear_if_flipped": 0.82025,
+      "certain": false
+     },
+     {
+      "round": 4,
+      "team1": "HEROIC",
+      "team2": "FaZe",
+      "winner": "HEROIC",
+      "p_clear_if_flipped": 0.84125,
+      "certain": false
+     }
+    ]
+   }
+  },
+  {
+   "name": "Optimizer #1",
+   "source": "optimizer",
+   "link": "",
+   "picks": {
+    "3-0": [
+     "PARIVISION",
+     "100 Thieves"
+    ],
+    "0-3": [
+     "Chinggis Warriors",
+     "Lynn Vision"
+    ],
+    "advance": [
+     "Ninjas in Pyjamas",
+     "HEROIC",
+     "FaZe",
+     "Liquid",
+     "M80",
+     "GOSH"
+    ]
+   },
+   "pre": {
+    "p5": 0.4162,
+    "p6": 0.18653,
+    "expected": 4.20783,
+    "se5": 0.001558773748816678,
+    "distribution": [
+     165,
+     2215,
+     9594,
+     20047,
+     26359,
+     22967,
+     13019,
+     4390,
+     1082,
+     152,
+     10
+    ],
+    "picks": [
+     {
+      "category": "3-0",
+      "team": "PARIVISION",
+      "p_correct": 0.25307
+     },
+     {
+      "category": "3-0",
+      "team": "100 Thieves",
+      "p_correct": 0.26803
+     },
+     {
+      "category": "0-3",
+      "team": "Chinggis Warriors",
+      "p_correct": 0.51712
+     },
+     {
+      "category": "0-3",
+      "team": "Lynn Vision",
+      "p_correct": 0.29848
+     },
+     {
+      "category": "Advance",
+      "team": "Ninjas in Pyjamas",
+      "p_correct": 0.50113
+     },
+     {
+      "category": "Advance",
+      "team": "HEROIC",
+      "p_correct": 0.49801
+     },
+     {
+      "category": "Advance",
+      "team": "FaZe",
+      "p_correct": 0.50297
+     },
+     {
+      "category": "Advance",
+      "team": "Liquid",
+      "p_correct": 0.52337
+     },
+     {
+      "category": "Advance",
+      "team": "M80",
+      "p_correct": 0.42415
+     },
+     {
+      "category": "Advance",
+      "team": "GOSH",
+      "p_correct": 0.4215
+     }
+    ],
+    "overlap": {
+     "identical": 10,
+     "other_slot": 0
+    },
+    "differences": [],
+    "label": "optimizer pick",
+    "label_parts": [
+     "optimizer pick"
+    ]
+   },
+   "post": {
+    "correct": 1,
+    "cleared": false,
+    "picks": [
+     {
+      "category": "3-0",
+      "team": "PARIVISION",
+      "p_correct": 0.25307,
+      "correct": false,
+      "p_actual": 0.74693
+     },
+     {
+      "category": "3-0",
+      "team": "100 Thieves",
+      "p_correct": 0.26803,
+      "correct": false,
+      "p_actual": 0.73197
+     },
+     {
+      "category": "0-3",
+      "team": "Chinggis Warriors",
+      "p_correct": 0.51712,
+      "correct": false,
+      "p_actual": 0.48288
+     },
+     {
+      "category": "0-3",
+      "team": "Lynn Vision",
+      "p_correct": 0.29848,
+      "correct": false,
+      "p_actual": 0.7015199999999999
+     },
+     {
+      "category": "Advance",
+      "team": "Ninjas in Pyjamas",
+      "p_correct": 0.50113,
+      "correct": false,
+      "p_actual": 0.49887000000000004
+     },
+     {
+      "category": "Advance",
+      "team": "HEROIC",
+      "p_correct": 0.49801,
+      "correct": false,
+      "p_actual": 0.5019899999999999
+     },
+     {
+      "category": "Advance",
+      "team": "FaZe",
+      "p_correct": 0.50297,
+      "correct": false,
+      "p_actual": 0.49702999999999997
+     },
+     {
+      "category": "Advance",
+      "team": "Liquid",
+      "p_correct": 0.52337,
+      "correct": true,
+      "p_actual": 0.52337
+     },
+     {
+      "category": "Advance",
+      "team": "M80",
+      "p_correct": 0.42415,
+      "correct": false,
+      "p_actual": 0.57585
+     },
+     {
+      "category": "Advance",
+      "team": "GOSH",
+      "p_correct": 0.4215,
+      "correct": false,
+      "p_actual": 0.5785
+     }
+    ],
+    "p_exact": 0.02215,
+    "p_at_least": 0.99835,
+    "p_cleared_outcome": 0.5838,
+    "swings": []
+   }
+  },
+  {
+   "name": "Seed chalk",
+   "source": "seed chalk",
+   "link": "",
+   "picks": {
+    "3-0": [
+     "Ninjas in Pyjamas",
+     "PARIVISION"
+    ],
+    "0-3": [
+     "Chinggis Warriors",
+     "Lynn Vision"
+    ],
+    "advance": [
+     "HEROIC",
+     "FaZe",
+     "Liquid",
+     "Eternal Fire",
+     "100 Thieves",
+     "9z"
+    ]
+   },
+   "pre": {
+    "p5": 0.37074,
+    "p6": 0.15687,
+    "expected": 4.09603,
+    "se5": 0.0015273894473905468,
+    "distribution": [
+     139,
+     1963,
+     9975,
+     22743,
+     28106,
+     21387,
+     10945,
+     3669,
+     915,
+     151,
+     7
+    ],
+    "picks": [
+     {
+      "category": "3-0",
+      "team": "Ninjas in Pyjamas",
+      "p_correct": 0.20369
+     },
+     {
+      "category": "3-0",
+      "team": "PARIVISION",
+      "p_correct": 0.25307
+     },
+     {
+      "category": "0-3",
+      "team": "Chinggis Warriors",
+      "p_correct": 0.51712
+     },
+     {
+      "category": "0-3",
+      "team": "Lynn Vision",
+      "p_correct": 0.29848
+     },
+     {
+      "category": "Advance",
+      "team": "HEROIC",
+      "p_correct": 0.49801
+     },
+     {
+      "category": "Advance",
+      "team": "FaZe",
+      "p_correct": 0.50297
+     },
+     {
+      "category": "Advance",
+      "team": "Liquid",
+      "p_correct": 0.52337
+     },
+     {
+      "category": "Advance",
+      "team": "Eternal Fire",
+      "p_correct": 0.36466
+     },
+     {
+      "category": "Advance",
+      "team": "100 Thieves",
+      "p_correct": 0.5031
+     },
+     {
+      "category": "Advance",
+      "team": "9z",
+      "p_correct": 0.43156
+     }
+    ],
+    "overlap": {
+     "identical": 6,
+     "other_slot": 2
+    },
+    "differences": [
+     {
+      "change": "3-0: Ninjas in Pyjamas → 100 Thieves (100 Thieves leaves Advance, Ninjas in Pyjamas takes its place)",
+      "gain": 0.028939999999999966
+     },
+     {
+      "change": "Advance: Eternal Fire → M80",
+      "gain": 0.018450000000000022
+     },
+     {
+      "change": "Advance: 9z → GOSH",
+      "gain": -0.0019299999999999873
+     }
+    ],
+    "label": "seed chalk",
+    "label_parts": [
+     "seed chalk"
+    ]
+   },
+   "post": {
+    "correct": 4,
+    "cleared": false,
+    "picks": [
+     {
+      "category": "3-0",
+      "team": "Ninjas in Pyjamas",
+      "p_correct": 0.20369,
+      "correct": true,
+      "p_actual": 0.20369
+     },
+     {
+      "category": "3-0",
+      "team": "PARIVISION",
+      "p_correct": 0.25307,
+      "correct": false,
+      "p_actual": 0.74693
+     },
+     {
+      "category": "0-3",
+      "team": "Chinggis Warriors",
+      "p_correct": 0.51712,
+      "correct": false,
+      "p_actual": 0.48288
+     },
+     {
+      "category": "0-3",
+      "team": "Lynn Vision",
+      "p_correct": 0.29848,
+      "correct": false,
+      "p_actual": 0.7015199999999999
+     },
+     {
+      "category": "Advance",
+      "team": "HEROIC",
+      "p_correct": 0.49801,
+      "correct": false,
+      "p_actual": 0.5019899999999999
+     },
+     {
+      "category": "Advance",
+      "team": "FaZe",
+      "p_correct": 0.50297,
+      "correct": false,
+      "p_actual": 0.49702999999999997
+     },
+     {
+      "category": "Advance",
+      "team": "Liquid",
+      "p_correct": 0.52337,
+      "correct": true,
+      "p_actual": 0.52337
+     },
+     {
+      "category": "Advance",
+      "team": "Eternal Fire",
+      "p_correct": 0.36466,
+      "correct": true,
+      "p_actual": 0.36466
+     },
+     {
+      "category": "Advance",
+      "team": "100 Thieves",
+      "p_correct": 0.5031,
+      "correct": true,
+      "p_actual": 0.5031
+     },
+     {
+      "category": "Advance",
+      "team": "9z",
+      "p_correct": 0.43156,
+      "correct": false,
+      "p_actual": 0.5684400000000001
+     }
+    ],
+    "p_exact": 0.28106,
+    "p_at_least": 0.6518,
+    "p_cleared_outcome": 0.6292599999999999,
+    "swings": [
+     {
+      "round": 1,
+      "team1": "Eternal Fire",
+      "team2": "FlyQuest",
+      "winner": "FlyQuest",
+      "p_clear_if_flipped": 0.61825,
+      "certain": false
+     },
+     {
+      "round": 2,
+      "team1": "PARIVISION",
+      "team2": "FlyQuest",
+      "winner": "FlyQuest",
+      "p_clear_if_flipped": 0.94725,
+      "certain": false
+     },
+     {
+      "round": 2,
+      "team1": "9z",
+      "team2": "M80",
+      "winner": "M80",
+      "p_clear_if_flipped": 0.54525,
+      "certain": false
+     },
+     {
+      "round": 3,
+      "team1": "HEROIC",
+      "team2": "M80",
+      "winner": "M80",
+      "p_clear_if_flipped": 0.58925,
+      "certain": false
+     },
+     {
+      "round": 3,
+      "team1": "GOSH",
+      "team2": "Chinggis Warriors",
+      "winner": "Chinggis Warriors",
+      "p_clear_if_flipped": 0.67925,
+      "certain": false
+     },
+     {
+      "round": 4,
+      "team1": "HEROIC",
+      "team2": "FaZe",
+      "winner": "HEROIC",
+      "p_clear_if_flipped": 0.605,
+      "certain": false
+     },
+     {
+      "round": 5,
+      "team1": "Lynn Vision",
+      "team2": "HEROIC",
+      "winner": "Lynn Vision",
+      "p_clear_if_flipped": 1.0,
+      "certain": true
+     }
+    ]
+   }
+  }
+ ],
+ "results": {
+  "source": "https://liquipedia.net/counterstrike/PGL/2026/Singapore/Stage_1",
+  "added_at": "2026-11-28T02:17:41+00:00",
+  "swing_sims": 4000,
+  "swing_seed": 2
+ }
+}

@@ -1,0 +1,35 @@
+# PGL Major Singapore 2026 - Stage 1 odds sheet for pickem-odds.
+# Odds, decimal, updated 2026-11-23:
+#   r1_odds        Pinnacle, match line
+#   qualify_odds   Thunderpick
+#   win_major_odds Thunderpick, entered 2026-11-18 (unchanged)
+# Thunderpick lists GOSH as "GOSH (BC.Game)" and PARIVISION as "PVISION". not_qualify_odds blank.
+# Teams, seeds and VRS points: Valve Regional Standings, global list of 2026-11-02 (its order
+# matches the Stage 1 seeding) and Liquipedia PGL/2026/Singapore/Stage_1. Round 1 is seed k v k+8.
+# GOSH appears in the VRS as BC.Game (asap, Magisk, mzinho, s1mple, Senzu).
+#
+# Columns (DECIMAL odds):
+#   r1_odds           this team wins its round-1 BO1 (fill both teams of a pair, or neither)
+#   qualify_odds      this team qualifies from Stage 1 (3 wins)
+#   not_qualify_odds  optional "No" price; if you use it, give it for every team with qualify_odds
+#   win_major_odds    this team wins the whole Major
+# Then run:
+#   uv run pickem-odds data/stage1_odds.csv --out data/stage1.json
+#   uv run pickem-optimize data/stage1.json --compare-spread
+seed,team,vrs_points,r1_opponent,r1_odds,qualify_odds,not_qualify_odds,win_major_odds
+1,Ninjas in Pyjamas,1564,M80,1.724,1.40,,125
+2,PARIVISION,1560,DENDELE,1.613,1.25,,75
+3,HEROIC,1548,Imperial,1.502,1.40,,125
+4,FaZe,1539,Wildcard,1.420,1.35,,100
+5,Liquid,1528,GOSH,1.699,1.35,,100
+6,Eternal Fire,1513,FlyQuest,1.729,2.00,,500
+7,100 Thieves,1511,Chinggis Warriors,1.125,1.40,,125
+8,9z,1490,Lynn Vision,1.598,1.65,,150
+9,M80,1489,Ninjas in Pyjamas,2.180,1.80,,250
+10,DENDELE,1466,PARIVISION,2.390,2.00,,500
+11,Imperial,1406,HEROIC,2.680,2.75,,1000
+12,Wildcard,1391,FaZe,2.990,3.75,,1000
+13,GOSH,1337,Liquid,2.220,1.80,,250
+14,FlyQuest,1318,Eternal Fire,2.170,2.60,,1000
+15,Chinggis Warriors,1272,100 Thieves,4.660,15.00,,1500
+16,Lynn Vision,1267,9z,2.420,6.00,,1500

@@ -80,7 +80,20 @@ Every card I can find (analysts, friends, mine, the optimizer, seed chalk) is sc
 ### Singapore Stage 1
 
 <!-- leaderboard:singapore_stage1 -->
-Filled in by `pickem-cards render --name singapore_stage1 --readme README.md`.
+| # | Card | Source | Approach | Overlap | P(≥5) | P(≥6) | E[correct] | Correct | Cleared |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | Mine (submitted) | me | optimizer pick | 10/10 | 41.6% | 18.7% | 4.21 | 1 | ✗ |
+| 2 | Optimizer #1 | optimizer | optimizer pick | 10/10 | 41.6% | 18.7% | 4.21 | 1 | ✗ |
+| 3 | timsunmey7143 | community | two dark horses to 3-0; 3-0 favourites in Advance | 5/10 | 37.6% | 15.2% | 4.10 | 4 | ✗ |
+| 4 | Seed chalk | seed chalk | seed chalk | 6/10 | 37.1% | 15.7% | 4.10 | 4 | ✗ |
+| 5 | YouTube sim | analyst | one dark horse to 3-0; 3-0 favourite in Advance | 7/10 | 36.9% | 15.0% | 4.09 | 4 | ✗ |
+| 6 | Friend 1 | friend | two dark horses to 3-0; 3-0 favourite in Advance | 5/10 | 34.9% | 13.7% | 3.98 | 2 | ✗ |
+
+Cards that cleared: 0, average P(≥5) n/a. Cards that didn't: 6, average P(≥5) 38.3%.
+
+Expected clears (sum of P(≥5)): 2.3; actual clears: 0. Brier score of P(≥5): 0.147. With this few cards these are anecdotes, not a test of the model.
+
+Full analysis: [leaderboards/singapore_stage1.md](leaderboards/singapore_stage1.md)
 <!-- /leaderboard:singapore_stage1 -->
 
 ## Usage
