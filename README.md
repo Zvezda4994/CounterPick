@@ -96,6 +96,20 @@ Expected clears (sum of P(≥5)): 2.3; actual clears: 0. Brier score of P(≥5):
 Full analysis: [leaderboards/singapore_stage1.md](leaderboards/singapore_stage1.md)
 <!-- /leaderboard:singapore_stage1 -->
 
+### Singapore Stage 2
+
+<!-- leaderboard:singapore_stage2 -->
+| # | Card | Source | Approach | Overlap | P(≥5) | P(≥6) | E[correct] | Correct | Cleared |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | Mine (submitted) | me | optimizer pick | 10/10 | 41.0% | 18.1% | 4.19 | – | – |
+| 2 | Optimizer #1 | optimizer | optimizer pick | 10/10 | 41.0% | 18.1% | 4.19 | – | – |
+| 3 | Seed chalk | seed chalk | seed chalk | 5/10 | 25.8% | 9.1% | 3.64 | – | – |
+
+Results are not in yet.
+
+Full analysis: [leaderboards/singapore_stage2.md](leaderboards/singapore_stage2.md)
+<!-- /leaderboard:singapore_stage2 -->
+
 ## Usage
 
 ```bash

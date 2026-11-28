@@ -1,0 +1,25 @@
+# Odds sheet built by pickem-next-stage on 2026-11-27.
+# Seeds 1-8: invited teams in VRS standing order (https://raw.githubusercontent.com/ValveSoftware/counter-strike_regional_standings/main/invitation/2026/standings_global_2026_11_02.md, standings as of 2026-11-02).
+# Seeds 9-16: teams advancing from data/stage1_odds.csv, in final mid-stage seed order
+# (record, then Difficulty, then initial seed), replayed from https://liquipedia.net/counterstrike/PGL/2026/Singapore/Stage_1.
+# Round 1 is seed k v seed k+8. Fill in DECIMAL odds as described in
+# examples/singapore_2026_stage1_odds.csv, then run pickem-odds on this file.
+# Odds (decimal), entered 2026-11-27: r1_odds Pinnacle match line; qualify_odds and win_major_odds
+# Thunderpick. Book names: 1W / The One (1w) = 1win, PVISION = PARIVISION, NAVI = Natus Vincere.
+seed,team,vrs_points,r1_opponent,r1_odds,qualify_odds,not_qualify_odds,win_major_odds
+1,FUT,1721,FlyQuest,1.316,1.20,,16
+2,Nemiga,1650,Ninjas in Pyjamas,1.833,1.35,,35
+3,G2,1616,Liquid,1.628,1.60,,65
+4,1win,1598,Eternal Fire,1.787,1.70,,75
+5,Natus Vincere,1589,PARIVISION,1.537,1.10,,12
+6,Astralis,1572,Imperial,1.729,2.60,,150
+7,The MongolZ,1554,Lynn Vision,1.425,1.40,,40
+8,MIBR,1546,100 Thieves,1.900,1.80,,100
+9,FlyQuest,1318,FUT,3.590,5.00,,250
+10,Ninjas in Pyjamas,1564,Nemiga,2.030,1.80,,75
+11,Liquid,1528,G2,2.360,1.90,,100
+12,Eternal Fire,1513,1win,2.090,2.60,,150
+13,PARIVISION,1560,Natus Vincere,2.580,1.50,,65
+14,Imperial,1406,Astralis,2.170,8.00,,500
+15,Lynn Vision,1267,The MongolZ,2.960,10.00,,750
+16,100 Thieves,1511,MIBR,1.943,2.10,,125
